@@ -1,0 +1,76 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL6952DCB22450010A
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  200 ;
+   bdo:contentLocationInstance  bdr:W23726 ;
+   bdo:contentLocationPage  145 ;
+   bdo:contentLocationVolume  5 .
+
+bdr:MW23726_7F5FDC  a  bdo:Instance ;
+   skos:prefLabel  "kun rig gi bdag bskyed kyi cho ga dngos grub kun 'byung (ca)"@bo-x-ewts ;
+   bdo:colophon  "zhes bya ba 'di ni/ rje btsun tsong kha pa chen po'i sras kyi thu bo 'dul 'dzin grags pa rgyal mtshan dpal bzang po'i zhal snga nas kyi gnang ba'i kun rig gi cho ga rgyud don gsal ba dang / de dang 'brel kun rig Tig chen du grags pa legs par bshad pa thams cad kyi snying po zhes bya ba sogs dam pa du ma'i gsung dang phyag len mthong thos su gyur ba dag phyogs gcig tu bsdus te/ shAkya'i dge slong su ma ti shI la zhes bgyi bas rang gzhan 'ga' la cung zad phan pa'ang srid snyam nas sbyar ba'o"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL6952DCB22450010A ;
+   bdo:contentLocationStatement  "28 ff." ;
+   bdo:hasTitle  bdr:TT4DCCE1811C03271A , bdr:TT984AF2A2B041BC7A ;
+   bdo:inRootInstance  bdr:MW23726 ;
+   bdo:instanceOf  bdr:WA0XL7F5FDCDD4A93 ;
+   bdo:legacyOutlineNodeRID  "O2CZ54082CZ5634" ;
+   bdo:partIndex  6 ;
+   bdo:partOf    bdr:MW23726_3F08D9 ;
+   bdo:partTreeIndex  "05.06" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT4DCCE1811C03271A
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "bcom ldan 'das kun rig gi bdag bskyed kyi cho ga dngos grub kun 'byung (ca)"@bo-x-ewts .
+
+bdr:TT984AF2A2B041BC7A
+   a             bdo:Title ;
+   rdfs:label    "kun rig gi bdag bskyed kyi cho ga dngos grub kun 'byung (ca)"@bo-x-ewts .

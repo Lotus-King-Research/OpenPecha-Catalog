@@ -1,0 +1,64 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLD5FDD02A3A2B5956
+   a             bdo:ContentLocation ;
+   bdo:contentLocationInstance  bdr:W2DB16631 ;
+   bdo:contentLocationVolume  32 .
+
+bdr:MW2DB16631_1C14A5
+   a             bdo:Instance ;
+   skos:prefLabel  "pod 32 pa (waM)"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLD5FDD02A3A2B5956 ;
+   bdo:hasPart   bdr:MW2DB16631_02DDF8 , bdr:MW2DB16631_032ECC , bdr:MW2DB16631_06D82F , bdr:MW2DB16631_138689 , bdr:MW2DB16631_1DDEB9 , bdr:MW2DB16631_21B3D0 , bdr:MW2DB16631_27EA61 , bdr:MW2DB16631_2E0F95 , bdr:MW2DB16631_3236EE , bdr:MW2DB16631_3D89DD , bdr:MW2DB16631_407DB1 , bdr:MW2DB16631_4E824B , bdr:MW2DB16631_503DC8 , bdr:MW2DB16631_514862 , bdr:MW2DB16631_540104 , bdr:MW2DB16631_55F485 , bdr:MW2DB16631_57095B , bdr:MW2DB16631_5AD8F9 , bdr:MW2DB16631_5B2510 , bdr:MW2DB16631_6C12CE , bdr:MW2DB16631_6F10BC , bdr:MW2DB16631_70AFD7 , bdr:MW2DB16631_70DF45 , bdr:MW2DB16631_72281D , bdr:MW2DB16631_7BFA2E , bdr:MW2DB16631_834DEE , bdr:MW2DB16631_8ECAC5 , bdr:MW2DB16631_A1273C , bdr:MW2DB16631_A88AAD , bdr:MW2DB16631_AE7003 , bdr:MW2DB16631_C8CB66 , bdr:MW2DB16631_CBAFCA , bdr:MW2DB16631_D6A63B , bdr:MW2DB16631_D7D793 , bdr:MW2DB16631_D8820C , bdr:MW2DB16631_DE06CA , bdr:MW2DB16631_E43AD1 , bdr:MW2DB16631_E6A014 , bdr:MW2DB16631_EB7A98 , bdr:MW2DB16631_EF7AF8 , bdr:MW2DB16631_FF3A58 ;
+   bdo:inRootInstance  bdr:MW2DB16631 ;
+   bdo:legacyOutlineNodeRID  "O1PD451592DB640891PD689371PD69017" ;
+   bdo:partIndex  1 ;
+   bdo:partOf    bdr:MW2DB16631_48B6A0 ;
+   bdo:partTreeIndex  "2.2.2.2.2.3.1" ;
+   bdo:partType  bdr:PartTypeVolume .

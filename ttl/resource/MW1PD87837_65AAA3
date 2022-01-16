@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLF53CD7F3AFE9E831
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  218 ;
+   bdo:contentLocationInstance  bdr:W1PD87837 ;
+   bdo:contentLocationPage  218 .
+
+bdr:MW1PD87837_65AAA3
+   a             bdo:Instance ;
+   skos:prefLabel  "skyid grong grwa khang dkar gyi lha rje a ma blo bzang sgrol ma lags kyi lo rgyus phyi lo 1974 nas bzung dgongs rdzogs mchd 'bul bar gyi lo rgyus zhib tsam gleng ba/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLF53CD7F3AFE9E831 ;
+   bdo:contentLocationStatement  "p. (212-212)" ;
+   bdo:hasPart   bdr:MW1PD87837_0A80B2 , bdr:MW1PD87837_0B0691 , bdr:MW1PD87837_184947 , bdr:MW1PD87837_2269EE , bdr:MW1PD87837_24EEF3 , bdr:MW1PD87837_29BE3A , bdr:MW1PD87837_30B87B , bdr:MW1PD87837_65BBDE , bdr:MW1PD87837_6EE1C8 , bdr:MW1PD87837_734758 , bdr:MW1PD87837_94BA6E , bdr:MW1PD87837_952689 , bdr:MW1PD87837_AB29CD , bdr:MW1PD87837_AF7F40 , bdr:MW1PD87837_AF8569 , bdr:MW1PD87837_C5AAC3 , bdr:MW1PD87837_D06EF9 , bdr:MW1PD87837_D6C900 , bdr:MW1PD87837_E4B9FE , bdr:MW1PD87837_E85572 , bdr:MW1PD87837_ED3C11 , bdr:MW1PD87837_EFAF5D ;
+   bdo:hasTitle  bdr:TTAD2595DCD350A341 ;
+   bdo:inRootInstance  bdr:MW1PD87837 ;
+   bdo:instanceOf  bdr:WA0XL65AAA3D91D6C ;
+   bdo:legacyOutlineNodeRID  "O1PD1265991KG59178" ;
+   bdo:partIndex  15 ;
+   bdo:partOf    bdr:MW1PD87837 ;
+   bdo:partTreeIndex  "15" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TTAD2595DCD350A341
+   a             bdo:Title ;
+   rdfs:label    "skyid grong grwa khang dkar gyi lha rje a ma blo bzang sgrol ma lags kyi lo rgyus phyi lo 1974 nas bzung dgongs rdzogs mchd 'bul bar gyi lo rgyus zhib tsam gleng ba/"@bo-x-ewts .

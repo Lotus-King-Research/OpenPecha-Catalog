@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLBC9730A7A88DF806
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  660 ;
+   bdo:contentLocationInstance  bdr:W4CZ1042 ;
+   bdo:contentLocationPage  575 ;
+   bdo:contentLocationVolume  5 .
+
+bdr:MW4CZ1042_7CB1CA  a  bdo:Instance ;
+   skos:prefLabel  "(ya) bla ma'i thugs sgrub bde gshegs kun 'dus las: dbang chen in+dra nI la'i mchod sdong rin po che'i phreng ba/"@bo-x-ewts ;
+   bdo:colophon  "kho bo rig 'dzin rtsa gsum gling pa chos kyi rgya mtshos sa khyi lor bsam yas mchims phu dge'u gong nas gdan drangs shing / mdo khams zangs gling rngam pa 'od ldan gyi nye 'dabs gze rgyal dung ri 'ja' 'od 'khyil ba'i gling klu ljongs skyed mo'i tshal gyi yar 'khyil spang ljongs me tog 'khrungs pa'i ri sul na nang chen sa bdag rgyal po'i ur 'gos su lcags mo phag (1731) gi lor shog ser nas zhal bshus pas yar rgyas tshes la gza' skar dge ba'i nyin mo DA k+ki'i tshogs mang po dang bcas grub pa'o"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLBC9730A7A88DF806 ;
+   bdo:contentLocationStatement  "43 ff. (pp. 550-634)" ;
+   bdo:hasTitle  bdr:TT07E3D4FE5A5B5500 ;
+   bdo:inRootInstance  bdr:MW4CZ1042 ;
+   bdo:instanceOf  bdr:WA0XL7CB1CA900D42 ;
+   bdo:legacyOutlineNodeRID  "O8LS18378LS2408" ;
+   bdo:partIndex  14 ;
+   bdo:partOf    bdr:MW4CZ1042_5CE83D ;
+   bdo:partTreeIndex  "05.1.4.14" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT07E3D4FE5A5B5500
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "(ya) bla ma'i thugs sgrub bde gshegs kun 'dus las: dbang chen in+dra nI la'i mchod sdong rin po che'i phreng ba/"@bo-x-ewts .

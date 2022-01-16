@@ -1,0 +1,76 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLD373078A25A4B075
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  494 ;
+   bdo:contentLocationInstance  bdr:W13779 ;
+   bdo:contentLocationPage  485 ;
+   bdo:contentLocationVolume  3 .
+
+bdr:MW13779_6CDA5E  a  bdo:Instance ;
+   skos:prefLabel  "phag mo'i skong bshags dang sgrub mchod zin bris/"@bo-x-ewts ;
+   bdo:colophon  "ji bzhin mtha' chod gzhog rtsal mi ldan kyang /_man ngag mdzes pa'i spu sdug yid 'ong can/_mnga' bdag las 'ongs bsnyen rigs yongs 'du'i rtser/_'dzum dkar rgod pa'i pad gzhon dpa' bo'i ming /_rnam gzum bla ma'i bka' drin chen po dang /_ slob dpon 'dod pa'i yon tan rab brtan mthus/_log lam mun pa'i g.yang la mi 'chor zhing /_bskyed rdzogs rim gnyis rnal 'byor bdag gyi bris/_dge 'dis sgrub rigs gsar 'dren shing rtar shog"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLD373078A25A4B075 ;
+   bdo:contentLocationStatement  "ff. 5" ;
+   bdo:hasTitle  bdr:TT5F122860FF9AA130 , bdr:TTB79CBDA8B54A0B9B ;
+   bdo:inRootInstance  bdr:MW13779 ;
+   bdo:instanceOf  bdr:WA0XL6CDA5EC17067 ;
+   bdo:legacyOutlineNodeRID  "O1AT21AT166" ;
+   bdo:partIndex  24 ;
+   bdo:partOf    bdr:MW13779_055D1F ;
+   bdo:partTreeIndex  "3.24" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT5F122860FF9AA130
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "srog sgrub rgyab chos yang yig las/_phag mo'i skong bshags dang/_sgrub mchod sogs kyi zin bris gal po che kun o gcig chod/"@bo-x-ewts .
+
+bdr:TTB79CBDA8B54A0B9B
+   a             bdo:Title ;
+   rdfs:label    "phag mo'i skong bshags dang sgrub mchod zin bris/"@bo-x-ewts .

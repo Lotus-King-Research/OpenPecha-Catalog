@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL52812078E0A59755
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  194 ;
+   bdo:contentLocationInstance  bdr:W1PD166109 ;
+   bdo:contentLocationPage  7 ;
+   bdo:contentLocationVolume  59 .
+
+bdr:MW1PD166109_915790
+   a             bdo:Instance ;
+   skos:prefLabel  "thun mong bsang gsur 'thor bu'i skor/（1）"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL52812078E0A59755 ;
+   bdo:contentLocationStatement  "pp. 1-188" ;
+   bdo:hasPart   bdr:MW1PD166109_05BAF6 , bdr:MW1PD166109_07CB97 , bdr:MW1PD166109_0E5C7B , bdr:MW1PD166109_132F72 , bdr:MW1PD166109_166D1C , bdr:MW1PD166109_171D1B , bdr:MW1PD166109_1AAAAB , bdr:MW1PD166109_21583D , bdr:MW1PD166109_283AD9 , bdr:MW1PD166109_2ACF3A , bdr:MW1PD166109_2FAE91 , bdr:MW1PD166109_35A60D , bdr:MW1PD166109_3682A6 , bdr:MW1PD166109_38B20E , bdr:MW1PD166109_394B26 , bdr:MW1PD166109_3C799D , bdr:MW1PD166109_42B0C2 , bdr:MW1PD166109_42B5BB , bdr:MW1PD166109_51C407 , bdr:MW1PD166109_58072A , bdr:MW1PD166109_5B4195 , bdr:MW1PD166109_6083F6 , bdr:MW1PD166109_67AB58 , bdr:MW1PD166109_68E3BC , bdr:MW1PD166109_6A0A7E , bdr:MW1PD166109_6D1AB1 , bdr:MW1PD166109_7A9008 , bdr:MW1PD166109_805173 , bdr:MW1PD166109_80EF2F , bdr:MW1PD166109_8DC466 , bdr:MW1PD166109_8E607D , bdr:MW1PD166109_8F7A46 , bdr:MW1PD166109_911E8E , bdr:MW1PD166109_93778F , bdr:MW1PD166109_96CE22 , bdr:MW1PD166109_9CA88B , bdr:MW1PD166109_A58FBD , bdr:MW1PD166109_AA2F79 , bdr:MW1PD166109_AA7655 , bdr:MW1PD166109_B1DE27 , bdr:MW1PD166109_B25943 , bdr:MW1PD166109_B48A90 , bdr:MW1PD166109_BFF386 , bdr:MW1PD166109_C0127A , bdr:MW1PD166109_C01F7E , bdr:MW1PD166109_C1460A , bdr:MW1PD166109_C7794E , bdr:MW1PD166109_CC1AF6 , bdr:MW1PD166109_CC756B , bdr:MW1PD166109_D66A8F , bdr:MW1PD166109_D71B74 , bdr:MW1PD166109_D728D4 , bdr:MW1PD166109_D88004 , bdr:MW1PD166109_D89253 , bdr:MW1PD166109_DA1572 , bdr:MW1PD166109_DA7684 , bdr:MW1PD166109_DE335E , bdr:MW1PD166109_DF7189 , bdr:MW1PD166109_E33E3A , bdr:MW1PD166109_E35337 , bdr:MW1PD166109_E42D54 , bdr:MW1PD166109_EA68C4 , bdr:MW1PD166109_F0DF40 , bdr:MW1PD166109_FF0A6C ;
+   bdo:hasTitle  bdr:TT7A5E282C5D0AD1F7 ;
+   bdo:inRootInstance  bdr:MW1PD166109 ;
+   bdo:legacyOutlineNodeRID  "O1PD166109C2O0791" ;
+   bdo:partIndex  1 ;
+   bdo:partOf    bdr:MW1PD166109_1CF643 ;
+   bdo:partTreeIndex  "59.1" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT7A5E282C5D0AD1F7
+   a             bdo:Title ;
+   rdfs:label    "thun mong bsang gsur 'thor bu'i skor/（1）"@bo-x-ewts .

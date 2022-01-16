@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL88EF4518A4E77894
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  636 ;
+   bdo:contentLocationInstance  bdr:W22186 ;
+   bdo:contentLocationPage  5 ;
+   bdo:contentLocationVolume  5 .
+
+bdr:MW22186_FA5EF3  a  bdo:Instance ;
+   skos:prefLabel  "'dul ba'i dka' gnad rnam par dpyad pa 'khrul spong blo gsal mgul rgyan tsin+da ma Ni'i phreng mdzes skal bzang re ba kun skong las gzhi stod/"@bo-x-ewts ;
+   bdo:colophon  "dge slong gi rnam par 'byed pa'i Tik+ka dang / nyid kyi rnam bshad dang / bam po lnga bcu pa gsum ni rje btsun tsong kha pa yab sras thams cad kyi tshad mar mdzad pa ltar du thams cad mkhyen pa dge 'dun grub kyi Tik chen rin chen phreng ba dang / gleng 'bum chen mo gzhir bzhag ste lung sde bzhi cha lag dang bcas pa'i don 'dril bar dpal ldan 'bras spungs kyi chos de chen por 'dug dus legs par bkod pa 'dis bstan pa rin po che phyogs dus thams cad du rgyas par gyur cig"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL88EF4518A4E77894 ;
+   bdo:contentLocationStatement  "316 ff." ;
+   bdo:hasTitle  bdr:TT129B5D4BDA285D83 ;
+   bdo:inRootInstance  bdr:MW22186 ;
+   bdo:instanceOf  bdr:WA0XLFA5EF35C7A66 ;
+   bdo:legacyOutlineNodeRID  "O4CZ264788LS44552" ;
+   bdo:partIndex  2 ;
+   bdo:partOf    bdr:MW22186_CF8708 ;
+   bdo:partTreeIndex  "06.2" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT129B5D4BDA285D83
+   a             bdo:Title ;
+   rdfs:label    "'dul ba'i dka' gnad rnam par dpyad pa 'khrul spong blo gsal mgul rgyan tsin+da ma Ni'i phreng mdzes skal bzang re ba kun skong las gzhi stod/"@bo-x-ewts .

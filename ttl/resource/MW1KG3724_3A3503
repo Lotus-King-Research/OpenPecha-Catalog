@@ -1,0 +1,77 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLBC2C343EC84A31A5
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  173 ;
+   bdo:contentLocationInstance  bdr:W1KG3724 ;
+   bdo:contentLocationPage  113 ;
+   bdo:contentLocationVolume  3 .
+
+bdr:MW1KG3724_3A3503  a  bdo:Instance ;
+   skos:prefLabel  "mgon po phyag drug pa'i sgrub thabs gtor chog dang bcas pa/"@bo-x-ewts ;
+   bdo:biblioNote  "gsal bshad/ gong gsal dbyin yig gi gsal brjod 'di bzhin ma dpe rang la 'khod 'dug pa'i brjod snying ni/ chos dpe 'di rnams 'jam mgon kong sprul gyi 'phrin las kyi rnam sprul du grags pa skyabs rje ka lu rin po che'i bka' drin la brten nas byung ba'ng / 1982 lor bka' brgyud kun khyab chos gling nas dpar skrun mdzad ces pa'o/" , "note: These are the Shangpa Kagyu books of meditation and instruction as compllied by the great meditation master Venerable Kalu Rinpoche. His Holiness Lalu Rinpoche is an activity emanation of Gyamgon Lodru Tayae. Lama Tsenjur Rinpoche has sponsored the publication of these books with the wish that they may benefit many sentient beings. Kagyu Kunkyab Chuling Published April, 1982." ;
+   bdo:colophon  "de ltar bla ma mgon po dbyer med kyi//sgrub thabs mdor bsdus tsam zhig brjod pa 'di//dam pa snga ma rnams kyis yang ns yang //gsal bar mdzad mod gzhan gyis bskul ba'i ngor//shin tu gsal zhing rgyas bsdus skyon bral bar//go bde'i tshig gis brjod na blo dman la//phan par 'gyur bas mos pa sna tshogs dang //mtshungs pa'i rim pa so sor phye ba yin//dge des bdag cag byang chub sgrub pa la//bar chad kun zhi mthun rkyen kun 'grub nas//mchog dang thun mong dngos grub ma lus pa//da lta nyid du thob pa'i rgyur gyur cig/gdug cing sdang sems ldan pa rnams//skad cig tsam gyis tshar bcad de//zhi rgyas dbang dang drag po yi//phrin las phyogs bcur spel bar shog/ces pa'ng mchog tu gyur pa'i dge ba'i bshes gnyen mang pos bskul ba'i ngor/rgyal khams pa tA ra nA thas rang lo nyer bdun pa nag pa zla ba'i yar ngo'i tshes brgyad la legs par sbyar ba'o"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLBC2C343EC84A31A5 ;
+   bdo:contentLocationStatement  "ff. 1r-31r (pp. 103-163)" ;
+   bdo:hasTitle  bdr:TT1AB15272FDDADE35 , bdr:TT3E664602ED5477BF ;
+   bdo:inRootInstance  bdr:MW1KG3724 ;
+   bdo:instanceOf  bdr:WA0XL3A3503533C19 ;
+   bdo:legacyOutlineNodeRID  "O1CN458831CN46019" ;
+   bdo:partIndex  9 ;
+   bdo:partOf    bdr:MW1KG3724_5C229E ;
+   bdo:partTreeIndex  "3.09" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT1AB15272FDDADE35
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "dpal ye shes kyi mgon po phyag drug pa'i sgrub thabs gtor ma'i cho ga dang bcas pa phrin las gter mdzod/"@bo-x-ewts .
+
+bdr:TT3E664602ED5477BF
+   a             bdo:Title ;
+   rdfs:label    "mgon po phyag drug pa'i sgrub thabs gtor chog dang bcas pa/"@bo-x-ewts .

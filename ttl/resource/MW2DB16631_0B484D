@@ -1,0 +1,73 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLEA9606A41029FE41
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  268 ;
+   bdo:contentLocationInstance  bdr:W2DB16631 ;
+   bdo:contentLocationPage  135 ;
+   bdo:contentLocationVolume  28 .
+
+bdr:MW2DB16631_0B484D
+   a             bdo:Instance ;
+   skos:prefLabel  "chos skyong gi gsol mchod skor phyogs bsdus 'dod 'byung dpal gyi rdzing bu/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLEA9606A41029FE41 ;
+   bdo:contentLocationStatement  "80 ff. (pp.123-256)" ;
+   bdo:hasPart   bdr:MW2DB16631_092684 , bdr:MW2DB16631_0A160E , bdr:MW2DB16631_183B63 , bdr:MW2DB16631_2985C1 , bdr:MW2DB16631_2B23B5 , bdr:MW2DB16631_344424 , bdr:MW2DB16631_381BBB , bdr:MW2DB16631_41D73B , bdr:MW2DB16631_41E802 , bdr:MW2DB16631_43AF9C , bdr:MW2DB16631_464212 , bdr:MW2DB16631_4D3C7D , bdr:MW2DB16631_4E4B1F , bdr:MW2DB16631_4F3CC3 , bdr:MW2DB16631_5540BC , bdr:MW2DB16631_5E30F4 , bdr:MW2DB16631_6C4252 , bdr:MW2DB16631_6F8EF9 , bdr:MW2DB16631_70DFF1 , bdr:MW2DB16631_73D471 , bdr:MW2DB16631_7589F7 , bdr:MW2DB16631_77398F , bdr:MW2DB16631_83C229 , bdr:MW2DB16631_966B7F , bdr:MW2DB16631_979D72 , bdr:MW2DB16631_99E725 , bdr:MW2DB16631_9B0E5B , bdr:MW2DB16631_A5CAB0 , bdr:MW2DB16631_AD19B9 , bdr:MW2DB16631_B37F54 , bdr:MW2DB16631_BAC478 , bdr:MW2DB16631_BC6F39 , bdr:MW2DB16631_BFD638 , bdr:MW2DB16631_C232D7 , bdr:MW2DB16631_C846B6 , bdr:MW2DB16631_CD35B4 , bdr:MW2DB16631_D18BA3 , bdr:MW2DB16631_D7B238 , bdr:MW2DB16631_E771ED , bdr:MW2DB16631_E852B4 , bdr:MW2DB16631_FCB473 , bdr:MW2DB16631_FDEBF5 ;
+   bdo:hasTitle  bdr:TTBC9A4675E56C7CFA ;
+   bdo:inRootInstance  bdr:MW2DB16631 ;
+   bdo:instanceOf  bdr:WA0XL6F319D2AE889 ;
+   bdo:legacyOutlineNodeRID  "O1PD451591PD452532DB643462DB64347" ;
+   bdo:partIndex  45 ;
+   bdo:partOf    bdr:MW2DB16631_B3F50F ;
+   bdo:partTreeIndex  "2.2.2.2.1.2.1.45" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TTBC9A4675E56C7CFA
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "chos skyong gi gsol mchod skor phyogs bsdus 'dod 'byung dpal gyi rdzing bu/"@bo-x-ewts .

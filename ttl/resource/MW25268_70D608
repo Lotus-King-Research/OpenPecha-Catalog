@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL3D484524F382A246
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  369 ;
+   bdo:contentLocationInstance  bdr:W25268 ;
+   bdo:contentLocationPage  364 ;
+   bdo:contentLocationVolume  1 .
+
+bdr:MW25268_70D608  a  bdo:Instance ;
+   skos:prefLabel  "shar skal ldan rgya mtsho'i rnam thar mdor bsdus/ (1607-1677)"@bo-x-ewts ;
+   bdo:colophon  "khong gi gsung ni/ a mdo phyogs kyi mkhas pa gong ma dag gi rnam thar sna tshogs dang / mdo smad du dam chos dar ba'i lo rgyus/ sdom pa gsum gyi rtsa ba yan lag gi nyes pa rnams kyi 'grel bshad sogs rong bo bde chen chos 'khor gling gi par ma pod ka pa nas nga pa'i bar po ti bzhi mi rigs dpe mdzod khang du bzhugs yod/ gong gsal ni/ brag dgon pa'i mdo smad chos 'byung dang / khong gi dngos slob byang chub ngag dbang bsod nams kyis brtsams pa'i rnam thar yid bzhin dbang gi rgyal po/ rje rang gi gsung mdo smad a mdo'i phyogs su bstan pa dar tshul gyi lo rgyus mdor bsdus bcas las btus te bsgrigs pa yin/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL3D484524F382A246 ;
+   bdo:contentLocationStatement  "pp. 332-337" ;
+   bdo:hasTitle  bdr:TTB59E8E798C3A0C02 ;
+   bdo:inRootInstance  bdr:MW25268 ;
+   bdo:instanceOf  bdr:WA0XL70D6080E7FA3 ;
+   bdo:legacyOutlineNodeRID  "O2JT38952JT7632" ;
+   bdo:partIndex  60 ;
+   bdo:partOf    bdr:MW25268_6219BE ;
+   bdo:partTreeIndex  "1.060" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TTB59E8E798C3A0C02
+   a             bdo:Title ;
+   rdfs:label    "shar skal ldan rgya mtsho'i rnam thar mdor bsdus/ (1607-1677)"@bo-x-ewts .

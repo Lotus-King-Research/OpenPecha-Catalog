@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLAE584CDE9513C058
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  1680 ;
+   bdo:contentLocationInstance  bdr:W1KG12048 ;
+   bdo:contentLocationPage  1341 ;
+   bdo:contentLocationVolume  2 .
+
+bdr:MW1KG12048_631012
+   a             bdo:Instance ;
+   skos:prefLabel  "mkha' 'gro yang thig_glegs bam hU~M pa/_rin chen shog ser skor/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLAE584CDE9513C058 ;
+   bdo:contentLocationStatement  "170 ff. (pp. 1-340)" ;
+   bdo:hasPart   bdr:MW1KG12048_25784A , bdr:MW1KG12048_29411D , bdr:MW1KG12048_33C621 , bdr:MW1KG12048_44067D , bdr:MW1KG12048_59C376 , bdr:MW1KG12048_5CB241 , bdr:MW1KG12048_64A571 , bdr:MW1KG12048_6B80C2 , bdr:MW1KG12048_754539 , bdr:MW1KG12048_789F73 , bdr:MW1KG12048_7920FC , bdr:MW1KG12048_90D566 , bdr:MW1KG12048_A3033A , bdr:MW1KG12048_AE55C7 , bdr:MW1KG12048_AE8A02 , bdr:MW1KG12048_BE44DD , bdr:MW1KG12048_C12F58 , bdr:MW1KG12048_C71E50 , bdr:MW1KG12048_D1569C , bdr:MW1KG12048_D5895A , bdr:MW1KG12048_E3D663 , bdr:MW1KG12048_EB5773 , bdr:MW1KG12048_EE911D , bdr:MW1KG12048_F1D9AF , bdr:MW1KG12048_F36B04 , bdr:MW1KG12048_F9E34B , bdr:MW1KG12048_FE2C67 ;
+   bdo:hasTitle  bdr:TT42E9724EB0EB95A9 ;
+   bdo:inRootInstance  bdr:MW1KG12048 ;
+   bdo:legacyOutlineNodeRID  "O1KG12048C2O0087" ;
+   bdo:partIndex  3 ;
+   bdo:partOf    bdr:MW1KG12048_05BF17 ;
+   bdo:partTreeIndex  "2.3" ;
+   bdo:partType  bdr:PartTypeSection .
+
+bdr:TT42E9724EB0EB95A9
+   a             bdo:Title ;
+   rdfs:label    "mkha' 'gro yang thig_glegs bam hU~M pa/_rin chen shog ser skor/"@bo-x-ewts .

@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL88337FFCA1BAD0ED
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  314 ;
+   bdo:contentLocationInstance  bdr:W23648 ;
+   bdo:contentLocationPage  1 ;
+   bdo:contentLocationVolume  1 .
+
+bdr:MW23648_381BBC  a  bdo:Instance ;
+   skos:prefLabel  "yongs rdzogs bstan pa rin po che'i nyams len gyi man ngag gsung ngag rin po che'i byon tshul khog phub dang bcas pa rgyas par bshad pa legs bshad 'dus pa'i rgya mtsho/"@bo-x-ewts ;
+   bdo:biblioNote  "(gsung ngag khog phub), historical survey of the lam 'bras precepts and the transmissions of the hevajra tantra in India and Tibet, written by 'jam mgon a myes zhabs ngag dbang kun dga' bsod nams in 1621 at the gzhi thog bla brang of sa skya with two Bhutanese artisans as scribes, bstan 'dzin rnam rgyal and 'brug phun tshogs, reproduced from a sde dge print from the gsung 'bum of a myes zhabs" ;
+   bdo:contentLocation  bdr:CL88337FFCA1BAD0ED ;
+   bdo:contentLocationStatement  "v.22, ff. 1r-157r" ;
+   bdo:hasTitle  bdr:TTE0C40B199E5564C7 ;
+   bdo:inRootInstance  bdr:MW23648 ;
+   bdo:instanceOf  bdr:WA0XL3A49C7C3EA8B ;
+   bdo:legacyOutlineNodeRID  "O2MS89392MS9166" ;
+   bdo:partIndex  1 ;
+   bdo:partOf    bdr:MW23648_11DFDB ;
+   bdo:partTreeIndex  "1.1" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TTE0C40B199E5564C7
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "yongs rdzogs bstan pa rin po che'i nyams len gyi man ngag gsung ngag rin po che'i byon tshul khog phub dang bcas pa rgyas par bshad pa legs bshad 'dus pa'i rgya mtsho/"@bo-x-ewts .

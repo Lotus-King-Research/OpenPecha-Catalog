@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL49A25662A3133479
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  708 ;
+   bdo:contentLocationInstance  bdr:W4615 ;
+   bdo:contentLocationPage  671 ;
+   bdo:contentLocationVolume  3 .
+
+bdr:MW4615_288916  a  bdo:Instance ;
+   skos:prefLabel  "mchog sprul myur 'byon gyi smon tshig gi skor dngos grub kun 'byung /"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL49A25662A3133479 ;
+   bdo:contentLocationStatement  "19 ff" ;
+   bdo:hasPart   bdr:MW4615_00F90D , bdr:MW4615_0657EA , bdr:MW4615_114872 , bdr:MW4615_36097F , bdr:MW4615_36F64C , bdr:MW4615_384ED1 , bdr:MW4615_3AFE9B , bdr:MW4615_3B1BE8 , bdr:MW4615_3C4027 , bdr:MW4615_3EABDF , bdr:MW4615_4DCCFB , bdr:MW4615_4DDBB4 , bdr:MW4615_4F261D , bdr:MW4615_564FD3 , bdr:MW4615_608492 , bdr:MW4615_76DF1F , bdr:MW4615_87A902 , bdr:MW4615_8805AA , bdr:MW4615_895AA7 , bdr:MW4615_97C49D , bdr:MW4615_9E6AB0 , bdr:MW4615_B6A098 , bdr:MW4615_CC5927 , bdr:MW4615_D7446A , bdr:MW4615_DD0965 , bdr:MW4615_E96119 , bdr:MW4615_EC5A85 , bdr:MW4615_F592B1 , bdr:MW4615_F5B3C7 ;
+   bdo:hasTitle  bdr:TT27C5B2DB97E8CAE4 ;
+   bdo:inRootInstance  bdr:MW4615 ;
+   bdo:instanceOf  bdr:WA0XL2889168E1BED ;
+   bdo:legacyOutlineNodeRID  "O00EGS10147932DB140" ;
+   bdo:partIndex  21 ;
+   bdo:partOf    bdr:MW4615_6DE7BC ;
+   bdo:partTreeIndex  "03.21" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT27C5B2DB97E8CAE4
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "mchog sprul myur 'byon gyi smon tshig gi skor dngos grub kun 'byung /"@bo-x-ewts .

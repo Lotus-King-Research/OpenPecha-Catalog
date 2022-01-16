@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLE3560DB9883BFE63
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  434 ;
+   bdo:contentLocationInstance  bdr:W13536 ;
+   bdo:contentLocationPage  429 ;
+   bdo:contentLocationVolume  13 .
+
+bdr:MW13536_6E4A00  a  bdo:Instance ;
+   skos:prefLabel  "kun tu bzang po zhes grags pa'i sa 'dzin dbang po'i lha klu gzhi bdag rnams la bsang mchod 'bul tshul kun bzang dga' ston/"@bo-x-ewts ;
+   bdo:colophon  "zhes kun tu bzang po zhes grags pa'i sa 'dzin dbang po'i lha klu gzhi bdag rnams la bsang mchod 'bul tshul kun bzang dga' ston zhes bya ba 'di ni/ yul phyogs de ka'i gzhis dgon bla ma dka' bcu pa bkra shis don grub kyis rab dkar lha dar dang bcas te dgos tshul mol ba'i ngor/ mang thos rig smra'i brtul zhugs 'chang ba blo bzang rta dbyangs kyis rab tshes sa rta zla 6 tshes 11 dge bar dam pa gong ma'i gsung la kha bsgyur ba'i tshul gyis yi ger bsdebs pa dza yan+tu/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLE3560DB9883BFE63 ;
+   bdo:contentLocationStatement  "3 ff. (pp. 423-428)" ;
+   bdo:hasTitle  bdr:TTB73A745F4889FE82 ;
+   bdo:inRootInstance  bdr:MW13536 ;
+   bdo:instanceOf  bdr:WA0XL6E4A0015EAB3 ;
+   bdo:legacyOutlineNodeRID  "O1JT7661JT1334" ;
+   bdo:partIndex  35 ;
+   bdo:partOf    bdr:MW13536_00763E ;
+   bdo:partTreeIndex  "13.35" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TTB73A745F4889FE82
+   a             bdo:Title ;
+   rdfs:label    "kun tu bzang po zhes grags pa'i sa 'dzin dbang po'i lha klu gzhi bdag rnams la bsang mchod 'bul tshul kun bzang dga' ston/"@bo-x-ewts .

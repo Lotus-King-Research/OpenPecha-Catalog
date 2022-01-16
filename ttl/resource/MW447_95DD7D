@@ -1,0 +1,73 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLC2F31F4F63E87BAE
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  62 ;
+   bdo:contentLocationInstance  bdr:W447 ;
+   bdo:contentLocationPage  33 ;
+   bdo:contentLocationVolume  4 .
+
+bdr:MW447_95DD7D  a  bdo:Instance ;
+   skos:prefLabel  "byang chub don gnyer gyi blo sbyong bcom ldan 'das la bstod pa rin chen bang mdzod (yang dza)"@bo-x-ewts ;
+   bf:identifiedBy  bdr:ID70021769AFF54912 ;
+   bdo:colophon  "ces sangs rgyas bcom ldan 'das la bstod pa rin po che'i bang mdzod/_mtshan gzhan byang chub don gnyer gyi blo sbyong yon tan 'byung gnas 'di dpal ldan a ti sha nas/_shar tsong kha pa yab sras kyi bar du brgyud pa'i man ngag ji lta ba bzhin du mdo sde du ma las btus te/_btsun pa blo gros rgyal mtshan gyis dben gnas phu rgyab tu sbyar ba 'dis kyang rgyal ba'i bstan pa rin po che sgo thams cad nas phyogs thams cad du dar zhing rgyas la yun ring du gnas pa dang/_sems can thams cad la phan thogs par gyur cig"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLC2F31F4F63E87BAE ;
+   bdo:contentLocationStatement  "15 ff. (pp. 25-54)" ;
+   bdo:hasTitle  bdr:TT49C6834B1A1A919A ;
+   bdo:inRootInstance  bdr:MW447 ;
+   bdo:instanceOf  bdr:WA0XLC072F6234B3F ;
+   bdo:legacyOutlineNodeRID  "O1KG18934CZ174608" ;
+   bdo:partIndex  3 ;
+   bdo:partOf    bdr:MW447_598D7E ;
+   bdo:partTreeIndex  "4.03" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT49C6834B1A1A919A
+   a             bdo:Title ;
+   rdfs:label    "byang chub don gnyer gyi blo sbyong bcom ldan 'das la bstod pa rin chen bang mdzod (yang dza)"@bo-x-ewts .

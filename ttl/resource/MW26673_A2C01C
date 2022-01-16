@@ -1,0 +1,76 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL9B1EE001C8002A98
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  732 ;
+   bdo:contentLocationInstance  bdr:W26673 ;
+   bdo:contentLocationPage  493 ;
+   bdo:contentLocationVolume  5 .
+
+bdr:MW26673_A2C01C  a  bdo:Instance ;
+   skos:prefLabel  "nyams mgur gyi tshogs gang shar chos sku'i rol rtsed (ga)"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL9B1EE001C8002A98 ;
+   bdo:contentLocationStatement  "vol.5, 120 ff. (pp.481-720)" ;
+   bdo:hasPart   bdr:MW26673_038735 , bdr:MW26673_141C7A , bdr:MW26673_18C77D , bdr:MW26673_1F8A20 , bdr:MW26673_215831 , bdr:MW26673_22EA3E , bdr:MW26673_2440DD , bdr:MW26673_2A7950 , bdr:MW26673_3194EA , bdr:MW26673_344EF6 , bdr:MW26673_38E145 , bdr:MW26673_3CB94C , bdr:MW26673_3D6178 , bdr:MW26673_4952D3 , bdr:MW26673_4AB01F , bdr:MW26673_52920D , bdr:MW26673_53E5BA , bdr:MW26673_55EE75 , bdr:MW26673_5664DC , bdr:MW26673_5A664B , bdr:MW26673_5ECDC4 , bdr:MW26673_66B251 , bdr:MW26673_6B8ABE , bdr:MW26673_89163B , bdr:MW26673_8D472A , bdr:MW26673_964AB2 , bdr:MW26673_97CC76 , bdr:MW26673_A2B08B , bdr:MW26673_A38F1D , bdr:MW26673_A55900 , bdr:MW26673_A9E310 , bdr:MW26673_B4C423 , bdr:MW26673_B5F7CE , bdr:MW26673_B8BCC7 , bdr:MW26673_BE04CA , bdr:MW26673_C1F16D , bdr:MW26673_CD8BC1 , bdr:MW26673_D5053F , bdr:MW26673_D8DC07 , bdr:MW26673_F0046C , bdr:MW26673_F1086C , bdr:MW26673_F15D97 , bdr:MW26673_F4496E , bdr:MW26673_F6D7ED , bdr:MW26673_F96FB1 , bdr:MW26673_F9A879 ;
+   bdo:hasTitle  bdr:TT237DD3C2081AD794 , bdr:TTA8E000EE91C4979F ;
+   bdo:inRootInstance  bdr:MW26673 ;
+   bdo:instanceOf  bdr:WA0XLA2C01CFE8B9D ;
+   bdo:legacyOutlineNodeRID  "O00PD10107041089201DG10483001DG104831" ;
+   bdo:partIndex  4 ;
+   bdo:partOf    bdr:MW26673_711FAA ;
+   bdo:partTreeIndex  "5.4" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT237DD3C2081AD794
+   a             bdo:Title ;
+   rdfs:label    "nyams mgur gyi tshogs gang shar chos sku'i rol rtsed (ga)"@bo-x-ewts .
+
+bdr:TTA8E000EE91C4979F
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "zhang 'gro ba'i mgon po g.yu brag pa'i nyams mgur gyi tshogs gang shar chos sku'i rol rtsed (ga)"@bo-x-ewts .

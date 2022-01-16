@@ -1,0 +1,78 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL13AC9FA52E7BE5FE
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  1454 ;
+   bdo:contentLocationInstance  bdr:W2PD19644 ;
+   bdo:contentLocationPage  3 ;
+   bdo:contentLocationVolume  32 .
+
+bdr:MW2PD19644_1ED0C0
+   a             bdo:Instance ;
+   skos:prefLabel  "sgam po pa'i gsung 'bum/ (dwags lha sgam po'i par ma/)"@bo-x-ewts ;
+   bdo:biblioNote  "Collected Works by Gampopa Sonam Rinchen (1079-1153), founder of the Dakpo Kagyu order. see W4CZ301826" ;
+   bdo:contentLocation  bdr:CL13AC9FA52E7BE5FE ;
+   bdo:contentLocationStatement  "1 v." ;
+   bdo:hasPart   bdr:MW2PD19644_003C2E , bdr:MW2PD19644_08FF0E , bdr:MW2PD19644_0903E9 , bdr:MW2PD19644_0E506A , bdr:MW2PD19644_13BD68 , bdr:MW2PD19644_152134 , bdr:MW2PD19644_21FDB4 , bdr:MW2PD19644_22ACC5 , bdr:MW2PD19644_351557 , bdr:MW2PD19644_37D471 , bdr:MW2PD19644_3A3FD1 , bdr:MW2PD19644_45BDCB , bdr:MW2PD19644_4E5AEB , bdr:MW2PD19644_5B777B , bdr:MW2PD19644_65775F , bdr:MW2PD19644_69C6DC , bdr:MW2PD19644_6AD6BA , bdr:MW2PD19644_6B617B , bdr:MW2PD19644_6F5AB2 , bdr:MW2PD19644_838E6A , bdr:MW2PD19644_8C79A2 , bdr:MW2PD19644_91A0E8 , bdr:MW2PD19644_93608F , bdr:MW2PD19644_96E274 , bdr:MW2PD19644_A7DE36 , bdr:MW2PD19644_AB459C , bdr:MW2PD19644_AD64C0 , bdr:MW2PD19644_AF50FC , bdr:MW2PD19644_B2198A , bdr:MW2PD19644_BFC845 , bdr:MW2PD19644_D4E17F , bdr:MW2PD19644_D732A2 , bdr:MW2PD19644_D97D59 , bdr:MW2PD19644_DB4A2C , bdr:MW2PD19644_E2BD30 , bdr:MW2PD19644_E32393 , bdr:MW2PD19644_E68F6F , bdr:MW2PD19644_F64D1E , bdr:MW2PD19644_FC0809 ;
+   bdo:hasTitle  bdr:TT59065A48E259CE7B , bdr:TTBF8576F7A342981E ;
+   bdo:inRootInstance  bdr:MW2PD19644 ;
+   bdo:instanceOf  bdr:WA0XL1ED0C043CBEB ;
+   bdo:legacyOutlineNodeRID  "O4CZ3645314CZ364619" ;
+   bdo:partIndex  1 ;
+   bdo:partOf    bdr:MW2PD19644_DD6975 ;
+   bdo:partTreeIndex  "32.1" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT59065A48E259CE7B
+   a             bdo:Title ;
+   rdfs:label    "sgam po pa'i gsung 'bum/ (dwags lha sgam po'i par ma/)"@bo-x-ewts .
+
+bdr:TTBF8576F7A342981E
+   a             bdo:OtherTitle ;
+   rdfs:label    "gsung 'bum/ sgam po pa/"@bo-x-ewts .

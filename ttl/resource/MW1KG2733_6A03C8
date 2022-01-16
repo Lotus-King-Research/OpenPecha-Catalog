@@ -1,0 +1,71 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLBE282AD9ADED0026
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  811 ;
+   bdo:contentLocationInstance  bdr:W1KG2733 ;
+   bdo:contentLocationPage  723 ;
+   bdo:contentLocationVolume  2 .
+
+bdr:MW1KG2733_6A03C8  a  bdo:Instance ;
+   skos:prefLabel  "sde tshan dgu pa/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLBE282AD9ADED0026 ;
+   bdo:contentLocationStatement  "pp. 1955-2043" ;
+   bdo:hasPart   bdr:MW1KG2733_018F7A , bdr:MW1KG2733_024C1C , bdr:MW1KG2733_037136 , bdr:MW1KG2733_0478BC , bdr:MW1KG2733_07D5FB , bdr:MW1KG2733_0853BF , bdr:MW1KG2733_089C32 , bdr:MW1KG2733_0BAA07 , bdr:MW1KG2733_0CBAD3 , bdr:MW1KG2733_0D67F4 , bdr:MW1KG2733_0DB8A5 , bdr:MW1KG2733_0DF7EE , bdr:MW1KG2733_0ECEDA , bdr:MW1KG2733_0EF0E4 , bdr:MW1KG2733_0F22F9 , bdr:MW1KG2733_0FA3AD , bdr:MW1KG2733_0FF54F , bdr:MW1KG2733_153372 , bdr:MW1KG2733_159602 , bdr:MW1KG2733_15FBB8 , bdr:MW1KG2733_19EAE6 , bdr:MW1KG2733_19F4C3 , bdr:MW1KG2733_1B7410 , bdr:MW1KG2733_1C4DA5 , bdr:MW1KG2733_1DAAA3 , bdr:MW1KG2733_1E8CE1 , bdr:MW1KG2733_1F0C9E , bdr:MW1KG2733_1F3A91 , bdr:MW1KG2733_215A91 , bdr:MW1KG2733_232C5B , bdr:MW1KG2733_26844F , bdr:MW1KG2733_278D05 , bdr:MW1KG2733_28E8D8 , bdr:MW1KG2733_2B587C , bdr:MW1KG2733_2B73F6 , bdr:MW1KG2733_2DC1E4 , bdr:MW1KG2733_2EE84A , bdr:MW1KG2733_2FA602 , bdr:MW1KG2733_2FA820 , bdr:MW1KG2733_2FFCD6 , bdr:MW1KG2733_30F8BE , bdr:MW1KG2733_317833 , bdr:MW1KG2733_319DFF , bdr:MW1KG2733_34357E , bdr:MW1KG2733_348937 , bdr:MW1KG2733_35329F , bdr:MW1KG2733_366C9E , bdr:MW1KG2733_36F1D8 , bdr:MW1KG2733_377FB0 , bdr:MW1KG2733_384EA6 , bdr:MW1KG2733_3932C2 , bdr:MW1KG2733_3B8204 , bdr:MW1KG2733_3B8209 , bdr:MW1KG2733_3C2918 , bdr:MW1KG2733_3F3092 , bdr:MW1KG2733_408F92 , bdr:MW1KG2733_42CCDE , bdr:MW1KG2733_43BA4B , bdr:MW1KG2733_44DE50 , bdr:MW1KG2733_453CE8 , bdr:MW1KG2733_4756A1 , bdr:MW1KG2733_4851B3 , bdr:MW1KG2733_49D6D0 , bdr:MW1KG2733_4B444D , bdr:MW1KG2733_4BACB5 , bdr:MW1KG2733_4CAB48 , bdr:MW1KG2733_4DC21C , bdr:MW1KG2733_4E433C , bdr:MW1KG2733_4E5FF5 , bdr:MW1KG2733_4EF620 , bdr:MW1KG2733_5087C4 , bdr:MW1KG2733_525A1E , bdr:MW1KG2733_535A89 , bdr:MW1KG2733_54EC23 , bdr:MW1KG2733_55306A , bdr:MW1KG2733_565956 , bdr:MW1KG2733_56BB1C , bdr:MW1KG2733_5708E9 , bdr:MW1KG2733_576525 , bdr:MW1KG2733_5954D1 , bdr:MW1KG2733_59FBB7 , bdr:MW1KG2733_5A8F8A , bdr:MW1KG2733_5AA4D4 , bdr:MW1KG2733_5B27A6 , bdr:MW1KG2733_5B60D3 , bdr:MW1KG2733_5C113D , bdr:MW1KG2733_5C56FB , bdr:MW1KG2733_5ED223 , bdr:MW1KG2733_5FCAF9 , bdr:MW1KG2733_60639F , bdr:MW1KG2733_60A4CC , bdr:MW1KG2733_61296E , bdr:MW1KG2733_61365D , bdr:MW1KG2733_622655 , bdr:MW1KG2733_6391D6 , bdr:MW1KG2733_656637 , bdr:MW1KG2733_688284 , bdr:MW1KG2733_68FE26 , bdr:MW1KG2733_691167 , bdr:MW1KG2733_6951FB , bdr:MW1KG2733_6AA756 , bdr:MW1KG2733_6C751F , bdr:MW1KG2733_6E4E88 , bdr:MW1KG2733_6EDB17 , bdr:MW1KG2733_6F7C20 , bdr:MW1KG2733_716C3E , bdr:MW1KG2733_71BF57 , bdr:MW1KG2733_73E1D4 , bdr:MW1KG2733_75C050 , bdr:MW1KG2733_75F85F , bdr:MW1KG2733_7607E0 , bdr:MW1KG2733_76C0E8 , bdr:MW1KG2733_76C61F , bdr:MW1KG2733_78AB69 , bdr:MW1KG2733_78E237 , bdr:MW1KG2733_796558 , bdr:MW1KG2733_7A355F , bdr:MW1KG2733_7B3CA9 , bdr:MW1KG2733_7CCD63 , bdr:MW1KG2733_7D582A , bdr:MW1KG2733_7D6FFD , bdr:MW1KG2733_7EB91D , bdr:MW1KG2733_82E2CE , bdr:MW1KG2733_83C3CE , bdr:MW1KG2733_83FB07 , bdr:MW1KG2733_894AAB , bdr:MW1KG2733_8BEDC8 , bdr:MW1KG2733_8C8F0F , bdr:MW1KG2733_8CEA70 , bdr:MW1KG2733_8DF104 , bdr:MW1KG2733_8E1A83 , bdr:MW1KG2733_8E5971 , bdr:MW1KG2733_8FB93A , bdr:MW1KG2733_90E0F8 , bdr:MW1KG2733_920C03 , bdr:MW1KG2733_92E381 , bdr:MW1KG2733_93BBAC , bdr:MW1KG2733_9445A3 , bdr:MW1KG2733_9478E8 , bdr:MW1KG2733_954826 , bdr:MW1KG2733_9626A2 , bdr:MW1KG2733_9681F9 , bdr:MW1KG2733_97A07E , bdr:MW1KG2733_980343 , bdr:MW1KG2733_9B0586 , bdr:MW1KG2733_9E05F7 , bdr:MW1KG2733_9E4C02 , bdr:MW1KG2733_9ED945 , bdr:MW1KG2733_9F0B12 , bdr:MW1KG2733_A0A6F2 , bdr:MW1KG2733_A0C4E4 , bdr:MW1KG2733_A18DC1 , bdr:MW1KG2733_A24936 , bdr:MW1KG2733_A3FFE0 , bdr:MW1KG2733_A4E1CA , bdr:MW1KG2733_A5301B , bdr:MW1KG2733_A57956 , bdr:MW1KG2733_A59C25 , bdr:MW1KG2733_A5C919 , bdr:MW1KG2733_A6924B , bdr:MW1KG2733_A86ABA , bdr:MW1KG2733_A8FC0C , bdr:MW1KG2733_A9F287 , bdr:MW1KG2733_AA9BC7 , bdr:MW1KG2733_AABE20 , bdr:MW1KG2733_AB142B , bdr:MW1KG2733_AC0FD0 , bdr:MW1KG2733_AC87EE , bdr:MW1KG2733_AD51F3 , bdr:MW1KG2733_AD7C0A , bdr:MW1KG2733_AED660 , bdr:MW1KG2733_AFB627 , bdr:MW1KG2733_B151AA , bdr:MW1KG2733_B224F9 , bdr:MW1KG2733_B33E1F , bdr:MW1KG2733_B438DD , bdr:MW1KG2733_B60A1C , bdr:MW1KG2733_B7CF55 , bdr:MW1KG2733_B892D4 , bdr:MW1KG2733_B944E8 , bdr:MW1KG2733_BAEE88 , bdr:MW1KG2733_BB9F37 , bdr:MW1KG2733_BBB3FD , bdr:MW1KG2733_BCDD2D , bdr:MW1KG2733_BD43F8 , bdr:MW1KG2733_BD599E , bdr:MW1KG2733_BE52BD , bdr:MW1KG2733_BF69E0 , bdr:MW1KG2733_BFE1A1 , bdr:MW1KG2733_C0C324 , bdr:MW1KG2733_C2375B , bdr:MW1KG2733_C23E70 , bdr:MW1KG2733_C333E2 , bdr:MW1KG2733_C35857 , bdr:MW1KG2733_C50729 , bdr:MW1KG2733_C5AC68 , bdr:MW1KG2733_C96B1D , bdr:MW1KG2733_CB2A73 , bdr:MW1KG2733_CD312B , bdr:MW1KG2733_CE2196 , bdr:MW1KG2733_CE6F00 , bdr:MW1KG2733_CE9147 , bdr:MW1KG2733_CECB5B , bdr:MW1KG2733_D1EF25 , bdr:MW1KG2733_D25443 , bdr:MW1KG2733_D298FA , bdr:MW1KG2733_D365CC , bdr:MW1KG2733_D5BC1A , bdr:MW1KG2733_D61CF1 , bdr:MW1KG2733_D63E29 , bdr:MW1KG2733_D7418F , bdr:MW1KG2733_D75269 , bdr:MW1KG2733_D88E6E , bdr:MW1KG2733_D8B15A , bdr:MW1KG2733_D9B110 , bdr:MW1KG2733_DA1607 , bdr:MW1KG2733_DA2645 , bdr:MW1KG2733_DAB755 , bdr:MW1KG2733_DBF981 , bdr:MW1KG2733_DC65BD , bdr:MW1KG2733_DF176D , bdr:MW1KG2733_DF2ABA , bdr:MW1KG2733_DFC9A9 , bdr:MW1KG2733_E0199F , bdr:MW1KG2733_E1DB21 , bdr:MW1KG2733_E1F641 , bdr:MW1KG2733_E26FC3 , bdr:MW1KG2733_E2E37D , bdr:MW1KG2733_E74576 , bdr:MW1KG2733_E7DD21 , bdr:MW1KG2733_E96469 , bdr:MW1KG2733_E99FD1 , bdr:MW1KG2733_EA6816 , bdr:MW1KG2733_EB31E2 , bdr:MW1KG2733_EC92DA , bdr:MW1KG2733_ECA634 , bdr:MW1KG2733_EF5000 , bdr:MW1KG2733_EF73C4 , bdr:MW1KG2733_EFF521 , bdr:MW1KG2733_F0375F , bdr:MW1KG2733_F04530 , bdr:MW1KG2733_F0B618 , bdr:MW1KG2733_F2AFA4 , bdr:MW1KG2733_F34085 , bdr:MW1KG2733_F511A7 , bdr:MW1KG2733_F56431 , bdr:MW1KG2733_F5BC32 , bdr:MW1KG2733_F5E2A2 , bdr:MW1KG2733_F68DF7 , bdr:MW1KG2733_F69308 , bdr:MW1KG2733_F859FD , bdr:MW1KG2733_F86300 , bdr:MW1KG2733_F9642B , bdr:MW1KG2733_F967BB , bdr:MW1KG2733_F97BAE , bdr:MW1KG2733_F9D968 , bdr:MW1KG2733_F9DF6C , bdr:MW1KG2733_FBB23C , bdr:MW1KG2733_FC25B5 , bdr:MW1KG2733_FC9056 , bdr:MW1KG2733_FD2A0B , bdr:MW1KG2733_FEC2AF ;
+   bdo:hasTitle  bdr:TTF74563B6D79E60E6 ;
+   bdo:inRootInstance  bdr:MW1KG2733 ;
+   bdo:legacyOutlineNodeRID  "O1KG27331KG100181" ;
+   bdo:partIndex  5 ;
+   bdo:partOf    bdr:MW1KG2733_3690C6 ;
+   bdo:partTreeIndex  "2.5" ;
+   bdo:partType  bdr:PartTypeChapter .
+
+bdr:TTF74563B6D79E60E6
+   a             bdo:Title ;
+   rdfs:label    "sde tshan dgu pa/"@bo-x-ewts .

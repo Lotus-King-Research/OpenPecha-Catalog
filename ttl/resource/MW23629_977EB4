@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLFA64E1D68F0EE17D
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  186 ;
+   bdo:contentLocationInstance  bdr:W23629 ;
+   bdo:contentLocationPage  139 ;
+   bdo:contentLocationVolume  4 .
+
+bdr:MW23629_977EB4  a  bdo:Instance ;
+   skos:prefLabel  "phan byed gzhan la gdams pa 'doms pa'i skor/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLFA64E1D68F0EE17D ;
+   bdo:contentLocationStatement  "24 ff. (pp. 133-180)" ;
+   bdo:hasPart   bdr:MW23629_0936AF , bdr:MW23629_09AEA0 , bdr:MW23629_0AED5F , bdr:MW23629_20696A , bdr:MW23629_2CC8C1 , bdr:MW23629_2F5D5B , bdr:MW23629_33B84C , bdr:MW23629_35BE30 , bdr:MW23629_37BDCD , bdr:MW23629_3CC185 , bdr:MW23629_4312AD , bdr:MW23629_5AF7AC , bdr:MW23629_5B8F40 , bdr:MW23629_5FD5A1 , bdr:MW23629_629087 , bdr:MW23629_67CF94 , bdr:MW23629_707FAD , bdr:MW23629_735AB1 , bdr:MW23629_7364E0 , bdr:MW23629_802AA8 , bdr:MW23629_93D621 , bdr:MW23629_957846 , bdr:MW23629_A06B16 , bdr:MW23629_A4F7DA , bdr:MW23629_AC569F , bdr:MW23629_B5E048 , bdr:MW23629_C84E8C , bdr:MW23629_D0D216 , bdr:MW23629_E31837 , bdr:MW23629_E5884D , bdr:MW23629_EDF091 , bdr:MW23629_F76958 ;
+   bdo:hasTitle  bdr:TT2334434A70D4F4D9 ;
+   bdo:inRootInstance  bdr:MW23629 ;
+   bdo:instanceOf  bdr:WA0XL977EB4327BAE ;
+   bdo:legacyOutlineNodeRID  "O1GS1514711KG92203" ;
+   bdo:partIndex  6 ;
+   bdo:partOf    bdr:MW23629_FB42EC ;
+   bdo:partTreeIndex  "4.6" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT2334434A70D4F4D9
+   a             bdo:Title ;
+   rdfs:label    "phan byed gzhan la gdams pa 'doms pa'i skor/"@bo-x-ewts .

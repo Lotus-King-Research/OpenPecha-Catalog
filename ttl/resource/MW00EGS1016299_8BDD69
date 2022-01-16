@@ -1,0 +1,81 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL59B6329E0D03FA2F
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  161 ;
+   bdo:contentLocationInstance  bdr:W00EGS1016299 ;
+   bdo:contentLocationPage  154 ;
+   bdo:contentLocationVolume  5 .
+
+bdr:MW00EGS1016299_8BDD69
+   a             bdo:Instance ;
+   skos:prefLabel  "zhwa pad+ma dbang chen gyi bstod pa/"@bo-x-ewts ;
+   bdo:colophon  "zhwa pad+ma dbang chen gyi gtsug lag khang yul 'khor dang bcas pa la bsngags pa rol mo'i sprin phung zhes bya ba/ theg pa mchog gi rnal 'byor pa kun mkhyen ngag gi dbang pos bkod pa dge'o"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL59B6329E0D03FA2F ;
+   bdo:contentLocationStatement  "ff. 8v-12r (pp. 152-159)" ;
+   bdo:hasTitle  bdr:TT1606B0A1452FCF2F , bdr:TT19B5DE661D0403E5 , bdr:TT77627901249EE0F9 ;
+   bdo:inRootInstance  bdr:MW00EGS1016299 ;
+   bdo:instanceOf  bdr:WA0XL8BDD69E96F66 ;
+   bdo:legacyOutlineNodeRID  "O2CN67002KG209637" ;
+   bdo:partIndex  8 ;
+   bdo:partOf    bdr:MW00EGS1016299_46BC5C ;
+   bdo:partTreeIndex  "4.1.03.08" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT1606B0A1452FCF2F
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "zhwa pad+ma dbang chen gyi bstod pa rol mo'i sprin phung /"@bo-x-ewts .
+
+bdr:TT19B5DE661D0403E5
+   a             bdo:ColophonTitle ;
+   rdfs:label    "zhwa pad+ma dbang chen gyi gtsug lag khang yul 'khor dang bcas pa la bsngags pa rol mo'i sprin phung /"@bo-x-ewts .
+
+bdr:TT77627901249EE0F9
+   a             bdo:Title ;
+   rdfs:label    "zhwa pad+ma dbang chen gyi bstod pa/"@bo-x-ewts .

@@ -1,0 +1,71 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL1F093D391F44A345
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  473 ;
+   bdo:contentLocationInstance  bdr:W861 ;
+   bdo:contentLocationPage  313 ;
+   bdo:contentLocationVolume  3 .
+
+bdr:MW861_916227  a  bdo:Instance ;
+   skos:prefLabel  "rje btsun thams cad mkhyen pa'i gsung 'bum thor bu las chos skyong gi skor rnams/ (u)"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL1F093D391F44A345 ;
+   bdo:contentLocationStatement  "81 ff. (pp. 311-471)" ;
+   bdo:hasPart   bdr:MW861_00F2F5 , bdr:MW861_0871A9 , bdr:MW861_0B00ED , bdr:MW861_1D868B , bdr:MW861_2125E2 , bdr:MW861_227414 , bdr:MW861_241914 , bdr:MW861_2800F5 , bdr:MW861_28D86A , bdr:MW861_3064BB , bdr:MW861_31224D , bdr:MW861_33FCE0 , bdr:MW861_357EBF , bdr:MW861_3B442C , bdr:MW861_3F9EBB , bdr:MW861_40E05C , bdr:MW861_421C64 , bdr:MW861_44FB17 , bdr:MW861_465B0A , bdr:MW861_4F7CEB , bdr:MW861_513C06 , bdr:MW861_72FB90 , bdr:MW861_847324 , bdr:MW861_8726DB , bdr:MW861_8A53E0 , bdr:MW861_A22D65 , bdr:MW861_A3AAE9 , bdr:MW861_ADCB9A , bdr:MW861_BE2E67 , bdr:MW861_C0015C , bdr:MW861_C02D07 , bdr:MW861_C096DC , bdr:MW861_DA852F , bdr:MW861_F80219 , bdr:MW861_FF18FA , bdr:MW861_FFB818 ;
+   bdo:hasTitle  bdr:TT852EDF12EDBA3C05 ;
+   bdo:inRootInstance  bdr:MW861 ;
+   bdo:legacyOutlineNodeRID  "O8614CZ211653" ;
+   bdo:partIndex  11 ;
+   bdo:partOf    bdr:MW861_313EC5 ;
+   bdo:partTreeIndex  "3.11" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT852EDF12EDBA3C05
+   a             bdo:Title ;
+   rdfs:label    "rje btsun thams cad mkhyen pa'i gsung 'bum thor bu las chos skyong gi skor rnams/ (u)"@bo-x-ewts .

@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLCE8035D8DA0C7C0A
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  233 ;
+   bdo:contentLocationInstance  bdr:W10347 ;
+   bdo:contentLocationPage  224 ;
+   bdo:contentLocationVolume  2 .
+
+bdr:MW10347_44153A  a  bdo:Instance ;
+   skos:prefLabel  "thugs rje chen po dang phyag rgya chen po zung 'jug tu nyams su len pa'i sngon 'gro'i rjes gnang thugs rje'i chu rgyun/"@bo-x-ewts ;
+   bdo:colophon  "ces dpal sa skya pa nas brgyud pa'i 'phags pa thugs rje chen po dang phyag rgya chen po zung 'jug tu nyams su len pa'i sngon 'gro'i rjes gnang thugs rje'i chu rgyun zhes bya ba 'di ni bla ma gong ma rnams 'phags pa rin po ches mdzad pa'i sgrub thabs la brten nas rjes gnang snyan brgyud kyi tshul du 'bogs pa las sngon chad yi ger bkod pa med do/ /phyi nas de ltar yod pa mi shes pa'i rgyus rgyun nub par 'gyur du dogs nas ban+de tshul khrims rin chen zhes bgyi bas lhun grub steng gi chos grwar bgyis pa dge'o"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLCE8035D8DA0C7C0A ;
+   bdo:contentLocationStatement  "ff. 1r-5v (pp. 217-226)" ;
+   bdo:hasTitle  bdr:TT6D183D2BCB64E1F6 ;
+   bdo:inRootInstance  bdr:MW10347 ;
+   bdo:instanceOf  bdr:WA0XL44153A53F8AB ;
+   bdo:legacyOutlineNodeRID  "O3JT111622KG206406" ;
+   bdo:partIndex  1 ;
+   bdo:partOf    bdr:MW10347_A88328 ;
+   bdo:partTreeIndex  "2.08.1" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT6D183D2BCB64E1F6
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "thugs rje chen po dang phyag rgya chen po zung 'jug tu nyams su len pa'i sngon 'gro'i rjes gnang thugs rje'i chu rgyun/"@bo-x-ewts .

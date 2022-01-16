@@ -1,0 +1,73 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL58C89E2468C8628E
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  862 ;
+   bdo:contentLocationInstance  bdr:W27300 ;
+   bdo:contentLocationPage  7 ;
+   bdo:contentLocationVolume  7 .
+
+bdr:MW27300_6B1DD4  a  bdo:Instance ;
+   skos:prefLabel  "klong chen snying thig glegs bam dang po/"@bo-x-ewts ;
+   bdo:biblioNote  "the practice of the Klong chen snyin thig cycle of rdzogs chen teachings" ;
+   bdo:contentLocation  bdr:CL58C89E2468C8628E ;
+   bdo:contentLocationStatement  "338 ff. (pp.3-856)" ;
+   bdo:hasPart   bdr:MW27300_001010 , bdr:MW27300_095244 , bdr:MW27300_10CF20 , bdr:MW27300_11C2A5 , bdr:MW27300_24917D , bdr:MW27300_25BB0F , bdr:MW27300_282BDC , bdr:MW27300_2A29FD , bdr:MW27300_30B32F , bdr:MW27300_3298F6 , bdr:MW27300_3301BC , bdr:MW27300_3568D9 , bdr:MW27300_357582 , bdr:MW27300_3F6B83 , bdr:MW27300_43DA29 , bdr:MW27300_452FF6 , bdr:MW27300_45DAA8 , bdr:MW27300_466395 , bdr:MW27300_46B80F , bdr:MW27300_49779A , bdr:MW27300_505EF2 , bdr:MW27300_53B73A , bdr:MW27300_562AA4 , bdr:MW27300_568943 , bdr:MW27300_56A274 , bdr:MW27300_58DFB8 , bdr:MW27300_5B29CE , bdr:MW27300_617E88 , bdr:MW27300_65FCA6 , bdr:MW27300_67A3A8 , bdr:MW27300_6B5974 , bdr:MW27300_709852 , bdr:MW27300_71957A , bdr:MW27300_7350CD , bdr:MW27300_73E461 , bdr:MW27300_7416EB , bdr:MW27300_75CFCF , bdr:MW27300_763F3D , bdr:MW27300_772E2D , bdr:MW27300_7A987C , bdr:MW27300_7C8218 , bdr:MW27300_7E3225 , bdr:MW27300_80545C , bdr:MW27300_81A26D , bdr:MW27300_8C461B , bdr:MW27300_8DEBE3 , bdr:MW27300_8E880C , bdr:MW27300_916D07 , bdr:MW27300_946CDB , bdr:MW27300_9856E0 , bdr:MW27300_9C810E , bdr:MW27300_9FE95E , bdr:MW27300_A128FF , bdr:MW27300_A2083F , bdr:MW27300_ACEC61 , bdr:MW27300_B422B9 , bdr:MW27300_B58AA5 , bdr:MW27300_B9A729 , bdr:MW27300_BE6BD6 , bdr:MW27300_BEFDF8 , bdr:MW27300_C2F308 , bdr:MW27300_C408CE , bdr:MW27300_C5BC13 , bdr:MW27300_C827CC , bdr:MW27300_CC0154 , bdr:MW27300_CE069B , bdr:MW27300_CFB503 , bdr:MW27300_D1147F , bdr:MW27300_D56FD6 , bdr:MW27300_F4856D , bdr:MW27300_F558D8 , bdr:MW27300_F8606A , bdr:MW27300_FC21C9 , bdr:MW27300_FD3FEC ;
+   bdo:hasTitle  bdr:TT3AA18659F5E854BF ;
+   bdo:inRootInstance  bdr:MW27300 ;
+   bdo:instanceOf  bdr:WA0XL6B1DD41BEBEA ;
+   bdo:legacyOutlineNodeRID  "O4CZ1562KG470" ;
+   bdo:partIndex  2 ;
+   bdo:partOf    bdr:MW27300_C79930 ;
+   bdo:partTreeIndex  "7.2" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT3AA18659F5E854BF
+   a             bdo:Title ;
+   rdfs:label    "klong chen snying thig glegs bam dang po/"@bo-x-ewts .

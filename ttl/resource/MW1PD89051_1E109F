@@ -1,0 +1,73 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLC49E5AF2F35FC647
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  246 ;
+   bdo:contentLocationInstance  bdr:W1PD89051 ;
+   bdo:contentLocationPage  7 ;
+   bdo:contentLocationVolume  5 .
+
+bdr:MW1PD89051_1E109F
+   a             bdo:Instance ;
+   skos:prefLabel  "dge bshes gro lung pas mdzad pa'i bstan rim chen mo'i smad cha/"@bo-x-ewts ;
+   bdo:colophon  "bde bar gshegs pa'i bstan pa rin po che la 'jug pa'i rin chen phreng ba zhes bya ba'i rnam par bshad pa/ /byang phyogs kyi rgyud kha ba can gyi ljongs su byung ba/ /bla ma rje btsun dam pa rnams kyi zhabs kyi pad+ma'i ze 'bru spyi bos len pas/ /lung dang rigs pa'i gtsug lag dam pa rnams la yongs su sbyangs pa'i ngal ba mi dman zhing mi zhan la mi nyung byas pa/ /rigs pa dang grol ba'i spobs pa dge ba can/ /shAkya'i dge slong blo gros 'byung gnas zhes bya ba thub pa'i brtul zhugs la legs par gnas pas rang gi dran pa goms pa spel ba'i brjed byang tsam du nye bar sbyar ba rdzogs// rje klong rdol rin po che nas phran klong rdol drung yig la rje gro lung ba'i bstan rim chen po 'di'i par zhig byung na brko rogs gyis gsungs kyang / /phran rang nyid sngon bsags kyis sbyin 'bras phra bas gser dngul sogs kyi mthun rkyen 'dzoms dka' bas tshe 'dir 'grub pa'i re ba dang bral zhing / /'on kyang bla ma'i bka' ma bcag tsam du da lam bstan 'gro'i don dang rang nyid la 'brel ba thob ba'i sems can shi gson thams cad bstan bcos 'di nyid la thos bsam bsgom gsum gyi goms pa 'phel phyir du ngal ba chen po'i sgo nas/ /bstan rim chen po shog grangs lnga brgya skor bzhengs pa'i gla lto sogs kyi dngos po tsam song rtsis rgyab par khyon sdom dngul srang lnga lhag tsam song 'dug par ma zad/ /rje bdag nyid chen pos kyang bstan bcos 'di nyid gdan 'dren zhu dus bsu ba bsre grangs mang du mdzad pa'i lo rgyus sogs kyang gus pa chen po mdzad pa yin 'dug pas/ bdag cag rjes 'jud rnams nas kyang 'di dag la yang yang klog 'don byed pa dang / /byed dus kyang lag pa'i dri ma nag po dang / /zhag dang snum dang spos mes sreg pa dang / /lag dal byed pa dang so dreg 'jug pa dang / /sa chu me rlung sogs kyi mthor rkyen du 'gro ba'i ma gus pa'i rigs rnams spong ba dang mdor na chos dang chos smra ba la ma gus pa ni rang nyid bsod nams nyams pa dang rmongs pa'i rgyu yin tshul dang / /de dag la gus pa chen po byas na rang nyid shes rab che ba dang / /bsod nams 'phel ba dang / /'gro ba lha dang bcas pa thams cad kyi rang nyid la gus zhabs chen po byed pa'i rgyu bsags tshul la nges pa drangs te dad gus byed dgos te/ mdo las/ ci 'dra ba yi rgyu bsags na/ /'bras bu de 'dra rang la 'ang yong / /zhes gsungs pa ltar ro/ /gzhan yang klong rdol bla mas bka' chos gnang dus 'di ltar gsungs/ /dge bshes yin na rje bla ma tsong kha pa chen pos mdzad pa'i byang chub lam rim chen po la nges pa bde blag tu rnyed pa'i phyir du/ dge bshes gro lung pa'i bstan rim dang / po to bas mdzad pa'i be bum sngon po'i 'grel pa/ /dge bshes dol pas mdzad pa dang / /rgyas sras zhi ba lhas mdzad pa'i bslab btus dang spyod 'jug sogs la nges par mig blta dgos gsungs/ /lhag par spyod 'jug tshang ma blo 'dzin byas nas/ /de'i 'grel pa rgyal tshab dar ma rin chen gyi mdzad pa'i spyod 'jug dar Tik la rgyun du blo sbyang dgos zhes yang yang gsungs pa dang / / gzhan yang dge ba'i bshes gnyen chen po gro lung pa'i lam rim 'am blo sbyong ngam bstan rim chen po 'di nyid mdzad pa'i dgos pa ni/ /rang gi pha mar gyur pa'i 'gro ba nyams thag pa rnams thugs brtse ba chen pos ma bzod nas/ /de dag la gnas skabs dang mthar thug gi phan pa dang bde ba ma lus pa bsgrubs par 'dod nas/ /rgyal ba'i gsung rab kun gyi don rnams skyes bu gsum gyi lam gyi rim par dril nas lam gyi thog mar bshes gnyen bsten tshul nas zhi lhag gi bar rnams gdul bya rnams kyi sems la ma 'jags dogs pa dang blo la 'dzin bde ba'i phyir du tshigs bcad du dril nas bshad/ /de dag gi don ma go dogs nas 'grel pas gsal bar bshad/ /snying ma las kyang chos cher snying ma'i dus 'dir sems can rnams bsod nams chung zhing bsam rgyu dug gsum las med pa dang nyon mongs de dag la goms shas che ba'i dbang gis chos dang chos 'chad pa sor ma gus pa dang phrag dogs dang yid mi ches pa shin tu mang bas/ /chos dang chos smra ba la yid ches pa'i phyir du bstan bcos 'di yang rang bzo ma yin par sangs rgyas kyi gsung rab zab mo'i don bzhin du bris nas bshad tshul rnams ston pa'i phyir du nges don gyi mdo mang po'i lung gi rgyab bsnon sogs mdzad nas gsungs 'dug pas/ /de ltar brjod pa la yid mi ches pa dang phrag dogs la sogs pa'i dbang gi bsod nams ma yin pa'i la ngan pa sogs pa'i rgyu de rnams ring dor nas/ /rjes su yi rangs kyi dga' spro mang du spel ba la mngon par brtson pa gyis na/ /phan yon brjod kyi mi langs pa thob par gsungs te/ rje tsong kha pas/ 'bad pa chung ngus brlabs chen tshogs bsdud la/ /dge la rjes su yid rangs mchog tu gsungs/ /zhes gsungs pa ltar/ /de dag la nges par dga' bar bgyis shig /rje gro lung pa'i bstan rim gyi ma dpe 'di yang deng sang shin tu rnyed dka' zhing da lta gzhung la yang g.yar rgyu mi 'dug zer bas ha cang gi mthong dka' ba yin pa bcas/ /da lam 'di'i ma dpe phur lcog tu bla ma byams pa rin po che'i phyag dpe khyungs dag zhig 'dug pa de'i nang bzhin du bris nas de dag la yang phul byed mi dag pa dang lha chad phra mo byung pa rnams/ rje klong rdol bla ma'i nye gnas drung yig dam chos yar 'phel gyi rang gi blo gros kyi mig gi dog gnas gang shes thams cad gasr du bcos nas dag par gyis pa dang / /khyad par du bstan bcos 'di nyid bri dus la dngos dang brgyud ci rigs kyi sgo nas 'gal rkyen bsal zhing mthun rkyen sgrubs par byed pa'i lha dang mi la sogs pa'i sems can shi gson ji snyed cig byung bas gtso byas ma gyur nam mkha'i mtha' dang mnyam pa'i sems can thams cas skye ba tshe rabs thams cad du mi khom pa'i gnas brgyad du nam yang mi skye bar shog shig /dal ba brgyad 'byor ba bcu tshang ba'i mi yis lus rten rnam par dag pa thob nas/ /rten de la yang theg pa chen po'i dge ba'i bshes gnyen chen po nye ba'i sras xxxxxxxxxxxxx rje klong rdol bla ma'i drung yig 'khor dang bcas pa thams cad nas ngal ba chen pos lus ngag yid gsum gyi sgo nas/ /bstan bcos 'di nyid la sogs pa'i rnam dkar dge ba'i phung po che chung ji snyed cig byas pa thams cad ma gyur nam mkha'i mtha' dang mnyam pa'i sems can thams cad kyi rgyud la/ /byams pa dang snying rje'i rtsa ba can gyis byang chub kyi smes rin po che myur du rgyud la skye ba'i rgyur 'gro bar gyur cig /dge ba de dag kyang sems can thams cad kyi dug gsum 'phel ba'i rgyu dang sdig pa bsags pa'i rgyu la mi 'gro bar shog shig /'di ltar bgyis pa'i rnam dkar dge ba yang / /dus gsum bde gshegs sras bcas thams cad kyi/ /mdzad pa smon lam ma lus bsgrub pa dang / /lung rtogs dam chos 'dzin pa'i rgyu ru bsngo//de yi mthu las tshe rabs kun tu bdag /theg mchog 'khor lo bzhi dang mi 'brel zhing / /nges 'byung byang sems yang dag lta ba dang / /rim gnyis lam gyi bgrod pa mthar phyin shog"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLC49E5AF2F35FC647 ;
+   bdo:contentLocationStatement  "120 ff. (pp. 3-242)" ;
+   bdo:hasTitle  bdr:TTC441FC59F03C0ED6 ;
+   bdo:inRootInstance  bdr:MW1PD89051 ;
+   bdo:instanceOf  bdr:WA0XL1E109F8D7BEC ;
+   bdo:legacyOutlineNodeRID  "O1PD89051C2O0059" ;
+   bdo:partIndex  2 ;
+   bdo:partOf    bdr:MW1PD89051_F05A14 ;
+   bdo:partTreeIndex  "05.2" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TTC441FC59F03C0ED6
+   a             bdo:Title ;
+   rdfs:label    "dge bshes gro lung pas mdzad pa'i bstan rim chen mo'i smad cha/"@bo-x-ewts .

@@ -1,0 +1,73 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL8C1668EC52A65F10
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  558 ;
+   bdo:contentLocationInstance  bdr:W1PD166109 ;
+   bdo:contentLocationPage  7 ;
+   bdo:contentLocationVolume  56 .
+
+bdr:MW1PD166109_2AB379
+   a             bdo:Instance ;
+   skos:prefLabel  "gsang sngags gsar rnying bskyed rdzogs smin grol gyi sde/（1）"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL8C1668EC52A65F10 ;
+   bdo:contentLocationStatement  "pp. 1-552" ;
+   bdo:hasPart   bdr:MW1PD166109_05256F , bdr:MW1PD166109_071049 , bdr:MW1PD166109_0C90E4 , bdr:MW1PD166109_0FBB25 , bdr:MW1PD166109_291344 , bdr:MW1PD166109_321E80 , bdr:MW1PD166109_34072F , bdr:MW1PD166109_4C0198 , bdr:MW1PD166109_542EFF , bdr:MW1PD166109_5E65E8 , bdr:MW1PD166109_721591 , bdr:MW1PD166109_79B407 , bdr:MW1PD166109_7BB332 , bdr:MW1PD166109_7D60F0 , bdr:MW1PD166109_80DFE1 , bdr:MW1PD166109_8D3E25 , bdr:MW1PD166109_8EB877 , bdr:MW1PD166109_9AA038 , bdr:MW1PD166109_AC9B9D , bdr:MW1PD166109_D060E3 , bdr:MW1PD166109_DB3BA2 , bdr:MW1PD166109_E5DC37 , bdr:MW1PD166109_E7BDE5 , bdr:MW1PD166109_EADA06 , bdr:MW1PD166109_ECF60A , bdr:MW1PD166109_ED0166 ;
+   bdo:hasTitle  bdr:TTA062120C91A05AE7 ;
+   bdo:inRootInstance  bdr:MW1PD166109 ;
+   bdo:instanceOf  bdr:WA0XLA60A7ABD3D3D ;
+   bdo:legacyOutlineNodeRID  "O1PD166109C2O0658" ;
+   bdo:partIndex  1 ;
+   bdo:partOf    bdr:MW1PD166109_66960E ;
+   bdo:partTreeIndex  "56.1" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TTA062120C91A05AE7
+   a             bdo:Title ;
+   rdfs:label    "gsang sngags gsar rnying bskyed rdzogs smin grol gyi sde/（1）"@bo-x-ewts .

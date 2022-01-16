@@ -1,0 +1,65 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLE9728A4CECB19714
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  350 ;
+   bdo:contentLocationInstance  bdr:W20214 ;
+   bdo:contentLocationPage  42 .
+
+bdr:MW20214_3C7140  a  bdo:Instance ;
+   skos:prefLabel  "khri ka rdzong /"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLE9728A4CECB19714 ;
+   bdo:contentLocationStatement  "p. 11" ;
+   bdo:hasPart   bdr:MW20214_04B072 , bdr:MW20214_09EB89 , bdr:MW20214_0B4F86 , bdr:MW20214_13597B , bdr:MW20214_1396FC , bdr:MW20214_17B662 , bdr:MW20214_18F0E0 , bdr:MW20214_1D5C2E , bdr:MW20214_1F5C1E , bdr:MW20214_289F2C , bdr:MW20214_2ACE69 , bdr:MW20214_2E08BA , bdr:MW20214_3019EF , bdr:MW20214_376D38 , bdr:MW20214_3C6C0A , bdr:MW20214_4971E8 , bdr:MW20214_49AEB5 , bdr:MW20214_508947 , bdr:MW20214_56C261 , bdr:MW20214_5B2C96 , bdr:MW20214_5E1361 , bdr:MW20214_616DA0 , bdr:MW20214_6C9714 , bdr:MW20214_7210B2 , bdr:MW20214_7C6E71 , bdr:MW20214_7D0D48 , bdr:MW20214_820546 , bdr:MW20214_848B24 , bdr:MW20214_8D525B , bdr:MW20214_90D643 , bdr:MW20214_A0B658 , bdr:MW20214_A4F2A9 , bdr:MW20214_A7980C , bdr:MW20214_AC33F8 , bdr:MW20214_B1BD1B , bdr:MW20214_B2626F , bdr:MW20214_BB85AF , bdr:MW20214_C459BA , bdr:MW20214_C78484 , bdr:MW20214_CC1BD7 , bdr:MW20214_CDA866 , bdr:MW20214_CDDFE5 , bdr:MW20214_D04257 , bdr:MW20214_D941C7 , bdr:MW20214_DCA694 , bdr:MW20214_DF8389 , bdr:MW20214_E4592D , bdr:MW20214_E6C8DB , bdr:MW20214_ED5B4B , bdr:MW20214_EF8D0C , bdr:MW20214_F12E91 , bdr:MW20214_F20757 ;
+   bdo:inRootInstance  bdr:MW20214 ;
+   bdo:legacyOutlineNodeRID  "O1GS533221GS53328" ;
+   bdo:partIndex  7 ;
+   bdo:partOf    bdr:MW20214 ;
+   bdo:partTreeIndex  "07" ;
+   bdo:partType  bdr:PartTypeSection .

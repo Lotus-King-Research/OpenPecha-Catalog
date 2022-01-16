@@ -1,0 +1,64 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL2A16518A159753D3
+   a             bdo:ContentLocation ;
+   bdo:contentLocationInstance  bdr:W2DB16631 ;
+   bdo:contentLocationVolume  27 .
+
+bdr:MW2DB16631_A18825
+   a             bdo:Instance ;
+   skos:prefLabel  "pod 27 pa (sha)"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL2A16518A159753D3 ;
+   bdo:hasPart   bdr:MW2DB16631_0CF036 , bdr:MW2DB16631_10BD0A , bdr:MW2DB16631_117DF0 , bdr:MW2DB16631_159889 , bdr:MW2DB16631_23C5E7 , bdr:MW2DB16631_327825 , bdr:MW2DB16631_37D235 , bdr:MW2DB16631_3A3412 , bdr:MW2DB16631_3E3D03 , bdr:MW2DB16631_414DD6 , bdr:MW2DB16631_44C6A1 , bdr:MW2DB16631_4B9ADA , bdr:MW2DB16631_4CA701 , bdr:MW2DB16631_504079 , bdr:MW2DB16631_55CB34 , bdr:MW2DB16631_56B1A1 , bdr:MW2DB16631_581847 , bdr:MW2DB16631_5EDFAC , bdr:MW2DB16631_62820F , bdr:MW2DB16631_66D211 , bdr:MW2DB16631_7407A7 , bdr:MW2DB16631_7623BB , bdr:MW2DB16631_78A30F , bdr:MW2DB16631_78D2A8 , bdr:MW2DB16631_7A35CF , bdr:MW2DB16631_7B3D23 , bdr:MW2DB16631_834B3A , bdr:MW2DB16631_88F1E2 , bdr:MW2DB16631_9252EB , bdr:MW2DB16631_95F25B , bdr:MW2DB16631_96D360 , bdr:MW2DB16631_97CD31 , bdr:MW2DB16631_9C9A90 , bdr:MW2DB16631_9F5768 , bdr:MW2DB16631_A8C61A , bdr:MW2DB16631_A92612 , bdr:MW2DB16631_A9D465 , bdr:MW2DB16631_B9CEA8 , bdr:MW2DB16631_BA5ABF , bdr:MW2DB16631_C0A47B , bdr:MW2DB16631_C3A3B7 , bdr:MW2DB16631_C4699F , bdr:MW2DB16631_CA3629 , bdr:MW2DB16631_CD7FE0 , bdr:MW2DB16631_CF7D7A , bdr:MW2DB16631_D7F2AE , bdr:MW2DB16631_D94F8D , bdr:MW2DB16631_E433CE , bdr:MW2DB16631_F2480C , bdr:MW2DB16631_F2F856 , bdr:MW2DB16631_F75BEB , bdr:MW2DB16631_FEF430 ;
+   bdo:inRootInstance  bdr:MW2DB16631 ;
+   bdo:legacyOutlineNodeRID  "O1PD451591PD45472" ;
+   bdo:partIndex  3 ;
+   bdo:partOf    bdr:MW2DB16631_5272CB ;
+   bdo:partTreeIndex  "2.2.2.2.1.1.3" ;
+   bdo:partType  bdr:PartTypeVolume .

@@ -1,0 +1,77 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL7A155203569A5352
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  104 ;
+   bdo:contentLocationInstance  bdr:W27300 ;
+   bdo:contentLocationPage  3 ;
+   bdo:contentLocationVolume  1 .
+
+bdr:MW27300_201573  a  bdo:Instance ;
+   skos:prefLabel  "yon tan rin po che'i mdzod dga' ba'i char/"@bo-x-ewts ;
+   bdo:colophon  "zhes bya ba / la stod chos rje thag phug pas bskul ba'i ngor/ sangs rgyas gnyis pa pad+ma saM b+ha wa'i zhabs rdul la spyi bos reg pa'i rdzogs chen pa rang byung rdo rje mkhyen brtse'i 'od zer gyis dpal ldan pad+ma 'od gling du sbyar ba'o"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL7A155203569A5352 ;
+   bdo:contentLocationStatement  "51 ff. (pp.1-102)" ;
+   bdo:hasPart   bdr:MW27300_041346 , bdr:MW27300_18014B , bdr:MW27300_28683C , bdr:MW27300_382F50 , bdr:MW27300_3A3BED , bdr:MW27300_474BE3 , bdr:MW27300_5B6C19 , bdr:MW27300_859968 , bdr:MW27300_B77863 , bdr:MW27300_CE50EE , bdr:MW27300_D05F0A , bdr:MW27300_F55A96 , bdr:MW27300_F7830F ;
+   bdo:hasTitle  bdr:TTB40540B8AD8374E4 , bdr:TTDEC929B90FF3F1F7 ;
+   bdo:inRootInstance  bdr:MW27300 ;
+   bdo:instanceOf  bdr:WA8LS17007 ;
+   bdo:legacyOutlineNodeRID  "O4CZ1562KG148" ;
+   bdo:partIndex  1 ;
+   bdo:partOf    bdr:MW27300_8249CD ;
+   bdo:partTreeIndex  "1.1" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TTB40540B8AD8374E4
+   a             bdo:Title ;
+   rdfs:label    "yon tan rin po che'i mdzod dga' ba'i char/"@bo-x-ewts .
+
+bdr:TTDEC929B90FF3F1F7
+   a             bdo:RunningTitle ;
+   rdfs:label    "yon tan mdzod rtsa ba/"@bo-x-ewts .

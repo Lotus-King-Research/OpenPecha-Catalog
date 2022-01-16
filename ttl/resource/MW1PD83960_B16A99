@@ -1,0 +1,77 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLAA0A6E77674B0435
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  428 ;
+   bdo:contentLocationInstance  bdr:W1PD83960 ;
+   bdo:contentLocationPage  424 ;
+   bdo:contentLocationVolume  1 .
+
+bdr:MW1PD83960_B16A99
+   a             bdo:Instance ;
+   skos:prefLabel  "tshad ma'i sgom rim phul byung snying po/"@bo-x-ewts ;
+   bdo:colophon  "ces tshad ma'i sgom rim phul du byung ba'i snying po zhes bya ba 'di slar yang rong ston shes bya kun rig gis dpal nA len+d+ra'i dgon par sbyar ba dge legs 'phel bar gyur cig/ tshad ma'i sgom rim 'di gnyis don gcig tu 'dug kyang mchan dang rgya bsdus dbu mjug gi rtsom sogs mi 'dra ba snga phyir mdzad par mngon pas gnyis ka bkod cing ma dpe gzhan bsdus ma rnyed pas yig nor yin nges las bcos med sor bzhag zhus/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLAA0A6E77674B0435 ;
+   bdo:contentLocationStatement  "p. 398" ;
+   bdo:hasTitle  bdr:TT5142603CBD43B64D , bdr:TTDE5BBF90CF753CC7 ;
+   bdo:inRootInstance  bdr:MW1PD83960 ;
+   bdo:instanceOf  bdr:WA0XLB16A99BB1750 ;
+   bdo:legacyOutlineNodeRID  "O1PD941651KG60806" ;
+   bdo:partIndex  28 ;
+   bdo:partOf    bdr:MW1PD83960_14C8D1 ;
+   bdo:partTreeIndex  "01.7.28" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT5142603CBD43B64D
+   a             bdo:Title ;
+   rdfs:label    "tshad ma'i sgom rim phul byung snying po/"@bo-x-ewts .
+
+bdr:TTDE5BBF90CF753CC7
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "tshad ma'i sgom rim phul du byung ba'i snying po/"@bo-x-ewts .

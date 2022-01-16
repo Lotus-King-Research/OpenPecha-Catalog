@@ -1,0 +1,70 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL3214C2930BC21255
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  764 ;
+   bdo:contentLocationInstance  bdr:W29018 ;
+   bdo:contentLocationPage  728 .
+
+bdr:MW29018_F6606D  a  bdo:Instance ;
+   skos:prefLabel  "gnyis pa/ don gyi rgyan yongs su bcad pa'i skabs/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL3214C2930BC21255 ;
+   bdo:contentLocationStatement  "p. 700" ;
+   bdo:hasPart   bdr:MW29018_1A3787 , bdr:MW29018_2500B6 , bdr:MW29018_2791F3 , bdr:MW29018_27AE10 , bdr:MW29018_282B5E , bdr:MW29018_2A50AB , bdr:MW29018_369187 , bdr:MW29018_36BA97 , bdr:MW29018_3A7F98 , bdr:MW29018_44D5CE , bdr:MW29018_496F69 , bdr:MW29018_4F8F46 , bdr:MW29018_52EAC6 , bdr:MW29018_561AA6 , bdr:MW29018_5ED495 , bdr:MW29018_5F5513 , bdr:MW29018_608AAA , bdr:MW29018_688E84 , bdr:MW29018_783B78 , bdr:MW29018_81C0AD , bdr:MW29018_8C0B58 , bdr:MW29018_9F9C27 , bdr:MW29018_A405BB , bdr:MW29018_B55455 , bdr:MW29018_B95B3D , bdr:MW29018_BDCCF2 , bdr:MW29018_C137CD , bdr:MW29018_D10771 , bdr:MW29018_DFAA4C , bdr:MW29018_E03991 , bdr:MW29018_E80F7B , bdr:MW29018_F04CBB , bdr:MW29018_F27FE0 , bdr:MW29018_F62E3E , bdr:MW29018_F7CD44 ;
+   bdo:hasTitle  bdr:TT92910D1519CC5A7D ;
+   bdo:inRootInstance  bdr:MW29018 ;
+   bdo:legacyOutlineNodeRID  "O2DB873402DB873451PD1039911PD1039931PD1039951PD1039961PD1039991PD1040001PD1040031PD1040041PD1040081PD1040091PD104088" ;
+   bdo:partIndex  2 ;
+   bdo:partOf    bdr:MW29018_4CBE85 ;
+   bdo:partTreeIndex  "6.2" ;
+   bdo:partType  bdr:PartTypeChapter .
+
+bdr:TT92910D1519CC5A7D
+   a             bdo:Title ;
+   rdfs:label    "gnyis pa/ don gyi rgyan yongs su bcad pa'i skabs/"@bo-x-ewts .

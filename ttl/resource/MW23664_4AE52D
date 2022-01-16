@@ -1,0 +1,65 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL12018170B4362B1A
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  135 ;
+   bdo:contentLocationInstance  bdr:W23664 ;
+   bdo:contentLocationPage  32 .
+
+bdr:MW23664_4AE52D  a  bdo:Instance ;
+   skos:prefLabel  "lha sa khul/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL12018170B4362B1A ;
+   bdo:contentLocationStatement  "pp. 1-104" ;
+   bdo:hasPart   bdr:MW23664_0A4075 , bdr:MW23664_0D8F78 , bdr:MW23664_106F0B , bdr:MW23664_11F5C6 , bdr:MW23664_1C6D9B , bdr:MW23664_1FFE55 , bdr:MW23664_20AA72 , bdr:MW23664_237BAB , bdr:MW23664_26E08E , bdr:MW23664_31BE43 , bdr:MW23664_3361E8 , bdr:MW23664_3958B9 , bdr:MW23664_3FAB02 , bdr:MW23664_41D318 , bdr:MW23664_4F9933 , bdr:MW23664_51EB4A , bdr:MW23664_5267A0 , bdr:MW23664_5C9C4A , bdr:MW23664_67E0DD , bdr:MW23664_6B9924 , bdr:MW23664_6BCC2B , bdr:MW23664_6EC936 , bdr:MW23664_7C685E , bdr:MW23664_7CA9B2 , bdr:MW23664_86A215 , bdr:MW23664_87A223 , bdr:MW23664_88DB09 , bdr:MW23664_971C66 , bdr:MW23664_9DCB59 , bdr:MW23664_A5DE39 , bdr:MW23664_AAEE2E , bdr:MW23664_B7A99E , bdr:MW23664_BDDC17 , bdr:MW23664_C0DE80 , bdr:MW23664_C4CA80 , bdr:MW23664_C70503 , bdr:MW23664_C989EF , bdr:MW23664_CD7916 , bdr:MW23664_D0C600 , bdr:MW23664_D354A4 , bdr:MW23664_D5A0FE , bdr:MW23664_DE8127 , bdr:MW23664_E1601E , bdr:MW23664_EB9EEC , bdr:MW23664_FFA10E ;
+   bdo:inRootInstance  bdr:MW23664 ;
+   bdo:legacyOutlineNodeRID  "O1GS478731GS47876" ;
+   bdo:partIndex  3 ;
+   bdo:partOf    bdr:MW23664 ;
+   bdo:partTreeIndex  "03" ;
+   bdo:partType  bdr:PartTypeChapter .

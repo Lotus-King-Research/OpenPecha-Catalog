@@ -1,0 +1,86 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:EVA5548F_MW23703_3105
+   a             bdo:AuthoredEvent ;
+   bdo:eventWho  bdr:AIRA5548F_MW23703_3105 .
+
+bdr:MW23703_3105  a  bdo:Instance ;
+   skos:prefLabel  "gtsug tor nas byung ba'i gdugs dkar mo can gyi sbyin sreg gi cho ga"@bo-x-ewts ;
+   bf:identifiedBy  bdr:ID21901B_MW23703_3105 ;
+   bdo:colophon  "'phags pa de bzhin gshegs pa thams cad kyi gtsug tor nas byung ba'i gdugs dkar mo can ma zhes bya ba'i sbyin sreg gi cho ga /slob dpon rdo rje rnon pos mdzad pa rdzogs so/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:WLDD1472_MW23703_3105 ;
+   bdo:hasTitle  bdr:TT19D16B_MW23703_3105 , bdr:TT884F80_MW23703_3105 , bdr:TTD28D9D_MW23703_3105 ;
+   bdo:inRootInstance  bdr:MW23703 ;
+   bdo:instanceEvent  bdr:EVA5548F_MW23703_3105 ;
+   bdo:instanceOf  bdr:WA0RT1925 ;
+   bdo:partIndex  1938 ;
+   bdo:partOf    bdr:MW23703_S0002 ;
+   bdo:partTreeIndex  "02.1938" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT19D16B_MW23703_3105
+   a             bdo:IncipitTitle ;
+   rdfs:label    "gtsug tor nas byung ba'i gdugs dkar mo can gyi sbyin sreg gi cho ga"@bo-x-ewts .
+
+bdr:TT884F80_MW23703_3105
+   a             bdo:IncipitTitle ;
+   rdfs:label    "u Sh+NI Sha si tA ta pa tre ho ma bi d+hiH/"@sa-x-ewts .
+
+bdr:TTD28D9D_MW23703_3105
+   a             bdo:ColophonTitle ;
+   rdfs:label    "'phags pa de bzhin gshegs pa thams cad kyi gtsug tor nas byung ba'i gdugs dkar mo can zhes bya ba'i sbyin sreg gi cho ga"@bo-x-ewts .
+
+bdr:WLDD1472_MW23703_3105
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndLine  6 ;
+   bdo:contentLocationEndPage  389 ;
+   bdo:contentLocationInstance  bdr:W23703 ;
+   bdo:contentLocationLine  2 ;
+   bdo:contentLocationPage  386 ;
+   bdo:contentLocationVolume  74 .

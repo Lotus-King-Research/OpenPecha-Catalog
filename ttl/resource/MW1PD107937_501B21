@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL03C52355F7232DBB
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  355 ;
+   bdo:contentLocationInstance  bdr:W1PD107937 ;
+   bdo:contentLocationPage  323 ;
+   bdo:contentLocationVolume  20 .
+
+bdr:MW1PD107937_501B21
+   a             bdo:Instance ;
+   skos:prefLabel  "mchod dpon ngag dbang shes rab kyis khra 'brug bkra shis byams snyoms kyi gtsug lag khang du gangs can sA la'i sman ljongs kyi skye rgu rnams bde skyid la spyod pa'i rten 'brel dang / rang nyid pha ma nye dur bcas pa byang chub snying po'i bar du bde bar spyod pa'i lhag bsam rdul bral gyi ston zla ltar dkar bas gong smos kyi rten bzhengs rnams bgyis pa'i dkar chag"@bo-x-ewts ;
+   bdo:colophon  "zhes mchod dpon ngag dbang shes rab kyis khra 'brug bkra shis byams snyoms kyi gtsug lag khang du gangs can sA la'i sman ljongs kyi skye rgu rnams bde skyid la spyod pa'i rten 'brel dang / rang nyid pha ma nye dur bcas pa byang chub snying po'i bar du bde bar spyod pa'i lhag bsam rdul bral gyi ston zla ltar dkar bas gong smos kyi rten bzhengs rnams bgyis pa'i dkar chag cig dgos zhes bskul ba ltar deb ther phan bde'i dpag bsam 'dod 'jo zhes pa 'di ni za hor gyi rigs las shAkya'i btsun pa 'jam dbyangs dga' ba'i bshes gnyen nas tshangs sras bzhad pa'i rdo rjer 'bod pas stod 'grel ba'i lugs la kA la dU ti zhes pa dus kyi pho nyar grags shing / mang bkur 'jam dbyangs gong ma'i khab tu (hau) 'ung phyogs 'dir dbang thang dang bstun pa sa pho rta'i lo 'o skol gyi ston pas bden bzhi'i chos 'khor skor ba dang / lhums su zhugs pa'i zla ba dmar phyogs kyi rgyal ba gsum pa res gza' ku mud gnyen dang zla skar rgyal la babs pa'i dus rdzogs ldan gyi rnam par thar pa bzhi'i sgo 'phar ci gcar du phye ba rgyal khab chen po po ta lar sbyar ba'i yi ge pa ni ngag rig smra ba lcang gseb pa bstan 'dzin dbang pos bgyis pa sarb+b d+hA shre ya lak+Sh+mi b+h ban+tu/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL03C52355F7232DBB ;
+   bdo:contentLocationStatement  "pp. 301-333" ;
+   bdo:hasTitle  bdr:TTEC70040F0C3015A3 ;
+   bdo:inRootInstance  bdr:MW1PD107937 ;
+   bdo:legacyOutlineNodeRID  "O8LS60834CZ164491" ;
+   bdo:partIndex  9 ;
+   bdo:partOf    bdr:MW1PD107937_A16894 ;
+   bdo:partTreeIndex  "20.2.7.09" ;
+   bdo:partType  bdr:PartTypeTableOfContent .
+
+bdr:TTEC70040F0C3015A3
+   a             bdo:ColophonTitle ;
+   rdfs:label    "mchod dpon ngag dbang shes rab kyis khra 'brug bkra shis byams snyoms kyi gtsug lag khang du gangs can sA la'i sman ljongs kyi skye rgu rnams bde skyid la spyod pa'i rten 'brel dang / rang nyid pha ma nye dur bcas pa byang chub snying po'i bar du bde bar spyod pa'i lhag bsam rdul bral gyi ston zla ltar dkar bas gong smos kyi rten bzhengs rnams bgyis pa'i dkar chag"@bo-x-ewts .

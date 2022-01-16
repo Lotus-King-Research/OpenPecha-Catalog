@@ -1,0 +1,76 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL63A600352A852549
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  458 ;
+   bdo:contentLocationInstance  bdr:W26673 ;
+   bdo:contentLocationPage  11 ;
+   bdo:contentLocationVolume  4 .
+
+bdr:MW26673_3F5D3F  a  bdo:Instance ;
+   skos:prefLabel  "dum bu dang po man ngag chig lab ring mo sogs (ka)"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL63A600352A852549 ;
+   bdo:contentLocationStatement  "vol.4, 224 ff. (pp.1-448)" ;
+   bdo:hasPart   bdr:MW26673_05A8BF , bdr:MW26673_0BEF71 , bdr:MW26673_196986 , bdr:MW26673_241112 , bdr:MW26673_2DDABF , bdr:MW26673_2E1113 , bdr:MW26673_2E799C , bdr:MW26673_3858B0 , bdr:MW26673_39355E , bdr:MW26673_3EC0B1 , bdr:MW26673_457897 , bdr:MW26673_45E893 , bdr:MW26673_4B2032 , bdr:MW26673_4CEA91 , bdr:MW26673_4E7B37 , bdr:MW26673_53F8A1 , bdr:MW26673_7C2764 , bdr:MW26673_7FF3C2 , bdr:MW26673_99AAC3 , bdr:MW26673_9E2C18 , bdr:MW26673_A9E643 , bdr:MW26673_AE1E7D , bdr:MW26673_B51B9A , bdr:MW26673_C89214 , bdr:MW26673_CF82CD , bdr:MW26673_D1F11A , bdr:MW26673_D3C45F , bdr:MW26673_D45ACB , bdr:MW26673_DFA5B5 , bdr:MW26673_E4BB2E , bdr:MW26673_EC07AF , bdr:MW26673_EF53B4 , bdr:MW26673_FAD5F3 ;
+   bdo:hasTitle  bdr:TT7A8AB266F1111A9E , bdr:TTD467213F65B5E63C ;
+   bdo:inRootInstance  bdr:MW26673 ;
+   bdo:instanceOf  bdr:WA0XL3F5D3FCC1135 ;
+   bdo:legacyOutlineNodeRID  "O00PD101070410833" ;
+   bdo:partIndex  2 ;
+   bdo:partOf    bdr:MW26673_F064FA ;
+   bdo:partTreeIndex  "4.2" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT7A8AB266F1111A9E
+   a             bdo:Title ;
+   rdfs:label    "dum bu dang po man ngag chig lab ring mo sogs (ka)"@bo-x-ewts .
+
+bdr:TTD467213F65B5E63C
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "chos nyams len du dril ba nges don kho na gtso bor ston pa'i skor la dum bu gsum las/ dang po man ngag chig lab ring mo sogs (ka)"@bo-x-ewts .

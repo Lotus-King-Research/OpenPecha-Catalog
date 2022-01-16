@@ -1,0 +1,72 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL31AEF7DDA409A40A
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  472 ;
+   bdo:contentLocationInstance  bdr:W1PD100944 ;
+   bdo:contentLocationPage  5 ;
+   bdo:contentLocationVolume  82 .
+
+bdr:MW1PD100944_98FE39
+   a             bdo:Instance ;
+   skos:prefLabel  "glegs bam zu pa/_(082)"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL31AEF7DDA409A40A ;
+   bdo:contentLocationStatement  "234 ff. (pp. 1-462)" ;
+   bdo:hasPart   bdr:MW1PD100944_00B660 , bdr:MW1PD100944_04FF6F , bdr:MW1PD100944_1B4D6A , bdr:MW1PD100944_1C6BB7 , bdr:MW1PD100944_3B39D9 , bdr:MW1PD100944_43AD17 , bdr:MW1PD100944_4B8C7C , bdr:MW1PD100944_58F04D , bdr:MW1PD100944_6C0A66 , bdr:MW1PD100944_7096BB , bdr:MW1PD100944_74B2DC , bdr:MW1PD100944_8CE575 , bdr:MW1PD100944_9928B3 , bdr:MW1PD100944_A540E8 , bdr:MW1PD100944_A72F78 , bdr:MW1PD100944_B2C824 , bdr:MW1PD100944_B68AA3 , bdr:MW1PD100944_BEBC9C , bdr:MW1PD100944_C47F3B , bdr:MW1PD100944_C910A4 , bdr:MW1PD100944_CBB2FF , bdr:MW1PD100944_D88F7C , bdr:MW1PD100944_D9B781 , bdr:MW1PD100944_DA7B44 , bdr:MW1PD100944_DBF79D , bdr:MW1PD100944_E02A26 , bdr:MW1PD100944_E03B90 ;
+   bdo:hasTitle  bdr:TTBFBB430761954945 ;
+   bdo:inRootInstance  bdr:MW1PD100944 ;
+   bdo:legacyOutlineNodeRID  "O1PD1009444CZ114266" ;
+   bdo:partIndex  1 ;
+   bdo:partOf    bdr:MW1PD100944_2A2186 ;
+   bdo:partTreeIndex  "4.3.2.09.1" ;
+   bdo:partType  bdr:PartTypeVolume .
+
+bdr:TTBFBB430761954945
+   a             bdo:Title ;
+   rdfs:label    "glegs bam zu pa/_(082)"@bo-x-ewts .

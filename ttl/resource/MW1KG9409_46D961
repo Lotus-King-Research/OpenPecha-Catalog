@@ -1,0 +1,76 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL0C7B77F1511FD0FB
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  73 ;
+   bdo:contentLocationInstance  bdr:W1KG9409 ;
+   bdo:contentLocationPage  64 ;
+   bdo:contentLocationVolume  15 .
+
+bdr:MW1KG9409_46D961  a  bdo:Instance ;
+   skos:prefLabel  "'jam dbyangs bzhad pa'i rdo rje'i skyes rabs rnam thar gsol 'debs/"@bo-x-ewts ;
+   bdo:colophon  "ces pa 'di ni dad ldan dge slong shes rab rgya mtsho sogs kyis mtshungs med bla ma'i skyes rabs dang rnam thar gsol 'debs kyi tshul du tshigs bcad du spel pa zhig cis nas kyang dgos zhes yang yang rna ba dal du mi ster bar brten mtshungs med bla ma la dad pa cung zad thob pa'i sgo mang bla zur blo ming can gyis sbyar pa'i yi ge pa ni dge tshul rin chen bkra shis so/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL0C7B77F1511FD0FB ;
+   bdo:contentLocationStatement  "5 ff." ;
+   bdo:hasTitle  bdr:TT1D79EDC161AB7C46 , bdr:TTA63E6A10FF35FD43 ;
+   bdo:inRootInstance  bdr:MW1KG9409 ;
+   bdo:instanceOf  bdr:WA0XLF7962B1EDD0D ;
+   bdo:legacyOutlineNodeRID  "O4CZ261044CZ207160" ;
+   bdo:partIndex  6 ;
+   bdo:partOf    bdr:MW1KG9409_CDE977 ;
+   bdo:partTreeIndex  "15.06" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT1D79EDC161AB7C46
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "bka' drin gsum ldan rin po che'i skyes rabs rnam thar gsol 'debs byin rlabs myur 'jug"@bo-x-ewts .
+
+bdr:TTA63E6A10FF35FD43
+   a             bdo:Title ;
+   rdfs:label    "'jam dbyangs bzhad pa'i rdo rje'i skyes rabs rnam thar gsol 'debs/"@bo-x-ewts .

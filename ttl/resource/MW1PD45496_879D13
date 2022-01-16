@@ -1,0 +1,78 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL1A14D4134DB41619
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  712 ;
+   bdo:contentLocationInstance  bdr:W1PD45496 ;
+   bdo:contentLocationPage  667 ;
+   bdo:contentLocationVolume  4 .
+
+bdr:MW1PD45496_879D13
+   a             bdo:Instance ;
+   skos:prefLabel  "dus 'khor 'gal spong /"@bo-x-ewts ;
+   bdo:biblioNote  "5015" ;
+   bdo:colophon  "dus kyi 'khor lo le'u lnga pa'i bdag nyid kyi le'u dang po'i 'gal spong sogs rgyas par zur du bshad la/ le'u bzhi'i gong 'og gi 'gal ba spong ba cung zad dang/ dka' ba'i gnas 'ga' zhig gi gsal byed 'di ni/ bla ma bsod nams rgyal mtshan dang/ dge ba'i bshes gnyen mgon po dpal gnyis kyis me tog dang bcas pa'i sgo nas gus pas gsol ba btab ste/ dge slong rin chen grub kyis dbyar zla tha chung gi nyi shu gnyis la zhwa lu'i sde ru grub par sbyar ba'i yi ge pa ni/ rnal 'byor rgyal ba 'od zer ro/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL1A14D4134DB41619 ;
+   bdo:contentLocationStatement  "23 ff. (pp.661-706)" ;
+   bdo:hasTitle  bdr:TTED04B75C913E1C4B , bdr:TTFC2D27A834B5875A ;
+   bdo:inRootInstance  bdr:MW1PD45496 ;
+   bdo:instanceOf  bdr:WA0XL879D13AE2DB9 ;
+   bdo:legacyOutlineNodeRID  "O1PD812001PD81227" ;
+   bdo:partIndex  5 ;
+   bdo:partOf    bdr:MW1PD45496_CC0F61 ;
+   bdo:partTreeIndex  "1.04.05" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TTED04B75C913E1C4B
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "'gal spong /"@bo-x-ewts .
+
+bdr:TTFC2D27A834B5875A
+   a             bdo:Title ;
+   rdfs:label    "dus 'khor 'gal spong /"@bo-x-ewts .

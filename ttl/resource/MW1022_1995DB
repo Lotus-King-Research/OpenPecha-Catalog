@@ -1,0 +1,76 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CL6787D9732756EDB2
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  458 ;
+   bdo:contentLocationInstance  bdr:W1022 ;
+   bdo:contentLocationPage  447 ;
+   bdo:contentLocationVolume  14 .
+
+bdr:MW1022_1995DB  a  bdo:Instance ;
+   skos:prefLabel  "gsang 'dus rim pa dang po'i khrid dmigs kyi bsdus don/"@bo-x-ewts ;
+   bdo:colophon  "zhes dpal gsang ba 'dus pa'i khrid dmigs kyi bsdus don sku gsum gzhal med khang du bgrod pa'i them skas zhes bya ba 'di ni/ lcags yos lo bkra shis bsam gtan gling du dge 'dun bzhi bcu skor la 'dzin chos su byas pa/ slar der 'dus rnams kyis yi ger 'khod pa zhig dgos zhes bskul ba la brten nas/ dge slong ye shes rgyal mtshan gyis bkra shis bsam gtan gling du sbyar ba'o"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CL6787D9732756EDB2 ;
+   bdo:contentLocationStatement  "6 ff. (pp. 431-442)" ;
+   bdo:hasTitle  bdr:TT1CCBB4726FD35041 , bdr:TTC49B3AA341342F1D ;
+   bdo:inRootInstance  bdr:MW1022 ;
+   bdo:instanceOf  bdr:WA0XL1995DB0CC2F7 ;
+   bdo:legacyOutlineNodeRID  "O01DG04d1e2313" ;
+   bdo:partIndex  16 ;
+   bdo:partOf    bdr:MW1022_B08AAE ;
+   bdo:partTreeIndex  "14.16" ;
+   bdo:partType  bdr:PartTypeText .
+
+bdr:TT1CCBB4726FD35041
+   a             bdo:TitlePageTitle ;
+   rdfs:label    "dpal gsang ba 'dus pa'i rim pa dang po'i khrid dmigs kyi bsdus don sku gsum gzhal med khang du bgrod pa'i them skas/"@bo-x-ewts .
+
+bdr:TTC49B3AA341342F1D
+   a             bdo:Title ;
+   rdfs:label    "gsang 'dus rim pa dang po'i khrid dmigs kyi bsdus don/"@bo-x-ewts .

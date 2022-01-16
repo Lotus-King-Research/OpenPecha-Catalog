@@ -1,0 +1,71 @@
+@prefix :      <http://purl.bdrc.io/ontology/core/> .
+@prefix adm:   <http://purl.bdrc.io/ontology/admin/> .
+@prefix adr:   <http://purl.bdrc.io/resource-nc/auth/> .
+@prefix as:    <http://www.w3.org/ns/activitystreams#> .
+@prefix aut:   <http://purl.bdrc.io/ontology/ext/auth/> .
+@prefix bda:   <http://purl.bdrc.io/admindata/> .
+@prefix bdac:  <http://purl.bdrc.io/anncollection/> .
+@prefix bdan:  <http://purl.bdrc.io/annotation/> .
+@prefix bdg:   <http://purl.bdrc.io/graph/> .
+@prefix bdgu:  <http://purl.bdrc.io/graph-nc/user/> .
+@prefix bdgup: <http://purl.bdrc.io/graph-nc/user-private/> .
+@prefix bdo:   <http://purl.bdrc.io/ontology/core/> .
+@prefix bdou:  <http://purl.bdrc.io/ontology/ext/user/> .
+@prefix bdr:   <http://purl.bdrc.io/resource/> .
+@prefix bds:   <http://purl.bdrc.io/ontology/shapes/core/> .
+@prefix bdu:   <http://purl.bdrc.io/resource-nc/user/> .
+@prefix bf:    <http://id.loc.gov/ontologies/bibframe/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dila:  <http://purl.dila.edu.tw/resource/> .
+@prefix eftr:  <http://purl.84000.co/resource/core/> .
+@prefix f:     <java:io.bdrc.libraries.sparql.functions.> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix iiif2: <http://iiif.io/api/presentation/2#> .
+@prefix iiif3: <http://iiif.io/api/presentation/3#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix mbbt:  <http://mbingenheimer.net/tools/bibls/> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix ola:   <https://openlibrary.org/authors/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rsh:   <http://purl.bdrc.io/shacl/core/shape/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix srcd:  <https://sakyaresearch.org/deities/> .
+@prefix srcl:  <https://sakyaresearch.org/literary_forms/> .
+@prefix srcpe: <https://sakyaresearch.org/persons/> .
+@prefix srcpl: <https://sakyaresearch.org/places/> .
+@prefix srcs:  <https://sakyaresearch.org/sources/> .
+@prefix srct:  <https://sakyaresearch.org/topics/> .
+@prefix tbr:   <http://purl.bdrc.io/ontology/toberemoved/> .
+@prefix text:  <http://jena.apache.org/text#> .
+@prefix tmp:   <http://purl.bdrc.io/ontology/tmp/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:  <http://viaf.org/viaf/> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+bdr:CLD135DE0BDBD55805
+   a             bdo:ContentLocation ;
+   bdo:contentLocationEndPage  171 ;
+   bdo:contentLocationInstance  bdr:W1KG2733 ;
+   bdo:contentLocationPage  109 ;
+   bdo:contentLocationVolume  3 .
+
+bdr:MW1KG2733_84AEA2  a  bdo:Instance ;
+   skos:prefLabel  "sde tshan bcu drug pa/"@bo-x-ewts ;
+   bdo:contentLocation  bdr:CLD135DE0BDBD55805 ;
+   bdo:contentLocationStatement  "pp. 2915-2977" ;
+   bdo:hasPart   bdr:MW1KG2733_00BFB6 , bdr:MW1KG2733_0183C7 , bdr:MW1KG2733_032215 , bdr:MW1KG2733_039581 , bdr:MW1KG2733_053CA2 , bdr:MW1KG2733_06032E , bdr:MW1KG2733_092467 , bdr:MW1KG2733_0B8A6C , bdr:MW1KG2733_0C4695 , bdr:MW1KG2733_0DC1AB , bdr:MW1KG2733_102A9F , bdr:MW1KG2733_13C7D3 , bdr:MW1KG2733_14083A , bdr:MW1KG2733_14F2B3 , bdr:MW1KG2733_1785CC , bdr:MW1KG2733_19A6A3 , bdr:MW1KG2733_19D2F4 , bdr:MW1KG2733_1C79E8 , bdr:MW1KG2733_1D7168 , bdr:MW1KG2733_1E54A9 , bdr:MW1KG2733_206835 , bdr:MW1KG2733_212D9C , bdr:MW1KG2733_21FD37 , bdr:MW1KG2733_221B7F , bdr:MW1KG2733_24C0DE , bdr:MW1KG2733_2682CE , bdr:MW1KG2733_2C0591 , bdr:MW1KG2733_2CDB64 , bdr:MW1KG2733_2E0822 , bdr:MW1KG2733_30006D , bdr:MW1KG2733_32834E , bdr:MW1KG2733_35CFDD , bdr:MW1KG2733_3A307E , bdr:MW1KG2733_3A40D0 , bdr:MW1KG2733_3C7422 , bdr:MW1KG2733_3D0D3F , bdr:MW1KG2733_3D272F , bdr:MW1KG2733_3EE14C , bdr:MW1KG2733_3F411C , bdr:MW1KG2733_401E18 , bdr:MW1KG2733_403B0F , bdr:MW1KG2733_40B84A , bdr:MW1KG2733_413BF5 , bdr:MW1KG2733_44D41B , bdr:MW1KG2733_466BE6 , bdr:MW1KG2733_470E04 , bdr:MW1KG2733_4842C9 , bdr:MW1KG2733_4D4CDB , bdr:MW1KG2733_4F7739 , bdr:MW1KG2733_4F8C92 , bdr:MW1KG2733_4FB88F , bdr:MW1KG2733_51091C , bdr:MW1KG2733_51154D , bdr:MW1KG2733_51537D , bdr:MW1KG2733_56ADD9 , bdr:MW1KG2733_57FB37 , bdr:MW1KG2733_587367 , bdr:MW1KG2733_5A720B , bdr:MW1KG2733_5B304F , bdr:MW1KG2733_5B44DD , bdr:MW1KG2733_5BB01F , bdr:MW1KG2733_5BFAD5 , bdr:MW1KG2733_5D3098 , bdr:MW1KG2733_5E81DF , bdr:MW1KG2733_5FB3AB , bdr:MW1KG2733_603108 , bdr:MW1KG2733_675BBE , bdr:MW1KG2733_67E968 , bdr:MW1KG2733_68CB4E , bdr:MW1KG2733_6913D5 , bdr:MW1KG2733_6B6FE8 , bdr:MW1KG2733_6BE3B1 , bdr:MW1KG2733_6D359F , bdr:MW1KG2733_6E3828 , bdr:MW1KG2733_6F177E , bdr:MW1KG2733_712367 , bdr:MW1KG2733_717C00 , bdr:MW1KG2733_72483F , bdr:MW1KG2733_73D4F5 , bdr:MW1KG2733_75D2E9 , bdr:MW1KG2733_76B22A , bdr:MW1KG2733_77FBC1 , bdr:MW1KG2733_7EF1DB , bdr:MW1KG2733_8220AB , bdr:MW1KG2733_830794 , bdr:MW1KG2733_860ABC , bdr:MW1KG2733_8648AF , bdr:MW1KG2733_88E4CA , bdr:MW1KG2733_8923F7 , bdr:MW1KG2733_89E0FC , bdr:MW1KG2733_8D2188 , bdr:MW1KG2733_8E6BCB , bdr:MW1KG2733_90307E , bdr:MW1KG2733_92B4D0 , bdr:MW1KG2733_93BA3E , bdr:MW1KG2733_9624BE , bdr:MW1KG2733_974E60 , bdr:MW1KG2733_99FDD1 , bdr:MW1KG2733_9BE76B , bdr:MW1KG2733_9C2676 , bdr:MW1KG2733_A3CD4C , bdr:MW1KG2733_A9FE2E , bdr:MW1KG2733_AD3CBF , bdr:MW1KG2733_AD5FB6 , bdr:MW1KG2733_AD6842 , bdr:MW1KG2733_AE8B06 , bdr:MW1KG2733_AE9E7B , bdr:MW1KG2733_B23BAE , bdr:MW1KG2733_B3112A , bdr:MW1KG2733_B569E7 , bdr:MW1KG2733_B57653 , bdr:MW1KG2733_B6E680 , bdr:MW1KG2733_B81B14 , bdr:MW1KG2733_B8D729 , bdr:MW1KG2733_B93195 , bdr:MW1KG2733_B963BB , bdr:MW1KG2733_BC20A7 , bdr:MW1KG2733_BD185D , bdr:MW1KG2733_BE98E9 , bdr:MW1KG2733_C0C996 , bdr:MW1KG2733_C4F7ED , bdr:MW1KG2733_C7A44B , bdr:MW1KG2733_C814B3 , bdr:MW1KG2733_CB8867 , bdr:MW1KG2733_CBAEFC , bdr:MW1KG2733_CC79B2 , bdr:MW1KG2733_CCC8CE , bdr:MW1KG2733_CD3EB5 , bdr:MW1KG2733_CE40A9 , bdr:MW1KG2733_CE7C2B , bdr:MW1KG2733_D4D584 , bdr:MW1KG2733_D6015B , bdr:MW1KG2733_D9940E , bdr:MW1KG2733_DE7A15 , bdr:MW1KG2733_E49863 , bdr:MW1KG2733_EA757C , bdr:MW1KG2733_EB5481 , bdr:MW1KG2733_EBED8B , bdr:MW1KG2733_F06609 , bdr:MW1KG2733_F7B3E5 , bdr:MW1KG2733_F98B3D , bdr:MW1KG2733_FCC7F4 , bdr:MW1KG2733_FF1D8D ;
+   bdo:hasTitle  bdr:TT89FBD738D5C27E1F ;
+   bdo:inRootInstance  bdr:MW1KG2733 ;
+   bdo:legacyOutlineNodeRID  "O1KG27331KG102201" ;
+   bdo:partIndex  3 ;
+   bdo:partOf    bdr:MW1KG2733_D6825F ;
+   bdo:partTreeIndex  "3.003" ;
+   bdo:partType  bdr:PartTypeChapter .
+
+bdr:TT89FBD738D5C27E1F
+   a             bdo:Title ;
+   rdfs:label    "sde tshan bcu drug pa/"@bo-x-ewts .
