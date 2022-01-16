@@ -13,4 +13,31 @@
   </a>
 </p>
 
-<p align="center"> OpenPecha Catalog is a catalog for mapping [OpenPecha](https://github.com/OpenPecha/catalog) volumes to individual texts.</p>
+<p align="center"> OpenPecha Catalog is a catalog for mapping  volumes in OpenPecha to individual texts contained within those volumes.</p>
+
+
+<p align="center">
+  <a href="#description">Description</a> •
+  <a href="#owner">Owner</a> •
+  <a href="#integrations">Integrations</a> •
+  <a href="#docs">Docs</a>
+</p>
+<hr>
+
+## Description
+
+[OpenPecha](https://github.com/OpenPecha) is a collection of more than 4,000 works of Tibetan texts, consisting of more than 10,000 volumes. These volumes in turn consist of over 80,000 individual texts. **OpenPecha Catalog** is an effort to systematically catalogue each text using [BDRC](https://www.tbrc.org/) openly available data.
+
+The catalog is built as-code so that it can be automatically updated or re-created.
+
+## Owner
+
+- [@mikkokotila](https://github.com/mikkokotila)
+
+## Integrations
+
+- [BDRC](https://github.com/Lotus-King-Research/BDRC) (A python API wrapper to BDRC data)
+
+## Docs
+
+[OpenPecha](https://github.com/OpenPecha/catalog) (The work level catalog for OpenPecha)
